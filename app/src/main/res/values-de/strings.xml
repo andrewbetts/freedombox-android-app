@@ -1,2 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="app_name">FreedomBox</string>
+    <string name="desc_splash_logo">Startlogo</string>
+    <string name="msg_apps_not_available">Anwendungen sind nicht erreichbar. Bitte prüfen Sie das Netzwerk oder die FreedomBox URL.</string>
+    <string name="msg_no_configured_freedomboxes">Hier werden FreedomBox-Server erscheinen, die Sie konfiguriert haben.</string>
+    <string name="msg_no_discovered_freedomboxes">Hier werden FreedomBox-Server erscheinen, die im lokalen Netzwerk entdeckt wurden.</string>
+    <string name="discovered">Entdeckt</string>
+    <string name="configured">Konfiguriert</string>
+    <string name="servers">FreedomBox-Server</string>
+    <string name="box_name">FreedomBox-Name</string>
+    <string name="username">Benutzername</string>
+    <string name="password">Passwort</string>
+    <string name="discovered_url">Entdeckte URL</string>
+    <string name="switch_title">Als Standart setzen</string>
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+    <string name="setup">Einrichtung</string>
+    <string name="settings">Einstellungen</string>
+    <string name="recently_connected_to">Kürzlich verbunden mit</string>
+    <string name="application_icon">Anwendungssymbol</string>
+    <string name="information">Information</string>
+    <string name="installation_status">Installationsstatus</string>
+    <string name="launch">Starten</string>
+
+    </resources>
