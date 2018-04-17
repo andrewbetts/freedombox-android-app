@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources><string name="app_name">FreedomBox</string>
     <string name="desc_splash_logo">Logotipo de bienvenida</string>
-    <string name="desc_navigate_next">Ir a siguiente</string>
     <string name="msg_apps_not_available">La aplicaciones no están disponibles. Por favor compruebe la red o verifique la url de Freedomox.</string>
     <string name="msg_no_configured_freedomboxes">Aquí aparecerán los servidores FreedomBox que haya guardado.</string>
     <string name="msg_no_discovered_freedomboxes">Aquí aparecerán los servidores FreedomBox encontrados en la red local.</string>
@@ -17,11 +16,7 @@
     <string name="delete">Borrar</string>
     <string name="setup">Configuración</string>
     <string name="settings">Ajustes</string>
-    <string name="recently_connected_to">Conectado recientemente a</string>
-    <string name="freedom_boxes">Freedom Boxes</string>
     <string name="application_icon">Icono de la aplicación</string>
-    <string name="information">Información</string>
-    <string name="installation_status">Estado de la instalación</string>
     <string name="launch">Ejecutar</string>
 
     </resources>

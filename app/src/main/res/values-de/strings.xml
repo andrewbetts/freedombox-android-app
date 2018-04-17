@@ -16,12 +16,7 @@
     <string name="delete">Löschen</string>
     <string name="setup">Einrichtung</string>
     <string name="settings">Einstellungen</string>
-    <string name="recently_connected_to">Kürzlich verbunden mit</string>
     <string name="application_icon">Anwendungssymbol</string>
-    <string name="information">Information</string>
-    <string name="installation_status">Installationsstatus</string>
     <string name="launch">Starten</string>
 
-    <string name="desc_navigate_next">Weiter</string>
-    <string name="freedom_boxes">Freedom-Boxes</string>
     </resources>
