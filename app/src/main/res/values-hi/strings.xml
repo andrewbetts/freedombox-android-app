@@ -1,2 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="app_name">फ्रीडमबाक्स</string>
+    <string name="desc_splash_logo">छप लोगो</string>
+    <string name="msg_apps_not_available">ऐप्लिकेशन उपलब्ध नहीं हैं। कृपया नेटवर्क जांचें या फ्रीडमबाक्स URL सत्यापित करें।</string>
+    <string name="msg_no_configured_freedomboxes">आपके द्वारा सहेजे गए फ्रीडमबाक्स सर्वर यहां दिखाई देंगे।</string>
+    <string name="msg_no_discovered_freedomboxes">स्थानीय नेटवर्क में खोजे जाने वाले फ्रीडमबॉक्स सर्वर यहां दिखाई देंगे।</string>
+    <string name="discovered">खोजा गया</string>
+    <string name="configured">कॉन्फ़िगर किया गया</string>
+    <string name="servers">फ्रीडमबाक्स सर्वर</string>
+    <string name="box_name">फ़्रीडमबॉक्स का नाम</string>
+    <string name="username">उपयोगकर्तानाम</string>
+    <string name="password">पासवर्ड</string>
+    <string name="discovered_url">खोजा गया URL</string>
+    <string name="switch_title">डिफ़ॉल्ट के रूप में सेट करें</string>
+    <string name="save">सहेजें</string>
+    <string name="delete">हटायें</string>
+    <string name="setup">सेटअप</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="application_icon">अनुप्रयोग चिह्न</string>
+    <string name="launch">प्रक्षेपण करें</string>
+
+    </resources>
