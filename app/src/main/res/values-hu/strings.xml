@@ -1,2 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="app_name">FreedomBox</string>
+    <string name="desc_splash_logo">Splash logó</string>
+    <string name="msg_apps_not_available">Az alkalmazások nem elérhetőek. Kérjük ellenőrizze a hálózatot és a FreedomBox elérési címét.</string>
+    <string name="msg_no_configured_freedomboxes">Itt fognak megjelenni azok a FreedomBox szerverek, amelyeket már beállított.</string>
+    <string name="msg_no_discovered_freedomboxes">Itt fognak megjelenni a helyi hálózaton talált FreedomBox szerverek.</string>
+    <string name="discovered">Felismert</string>
+    <string name="configured">Beállított</string>
+    <string name="servers">FreedomBox szerverek</string>
+    <string name="box_name">FreedomBox neve</string>
+    <string name="username">Felhasználói név</string>
+    <string name="password">Jelszó</string>
+    <string name="discovered_url">Felismert URL</string>
+    <string name="switch_title">Beállítás alapértelmezettként</string>
+    <string name="save">Mentés</string>
+    <string name="delete">Törlés</string>
+    <string name="setup">Beállítások</string>
+    <string name="settings">Beállítások</string>
+    <string name="application_icon">Alkalmazásikon</string>
+    <string name="launch">Indítás</string>
+
+    </resources>
