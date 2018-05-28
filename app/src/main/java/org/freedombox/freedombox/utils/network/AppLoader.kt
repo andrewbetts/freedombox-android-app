@@ -152,7 +152,11 @@ fun getLaunchString(shortcut: Shortcut, packageManager: PackageManager, baseUrl:
         val webClients = shortcut.clients.filter { it.platforms.any { it.type == "web" } }
         val platform = webClients.first().platforms.find { it.type == "web" }
         if (platform != null) {
-            urlJoin(baseUrl, platform.url)
+            if (!platform.url.startsWith("http")) {
+                urlJoin(baseUrl, platform.url)
+            } else {
+                platform.url
+            }
         } else ""
     } else {
         val installedApps = findInstalledApps(getAndroidPackageNames(shortcut), packageManager)
