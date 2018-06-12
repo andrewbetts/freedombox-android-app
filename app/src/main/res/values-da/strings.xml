@@ -1,2 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="app_name">FreedomBox</string>
+    <string name="desc_splash_logo">Opstartslogo</string>
+    <string name="msg_apps_not_available">Applikationerne er ikke tilgængelige. Tjek netværket eller kontroller FreedomBox-url.</string>
+    <string name="msg_no_configured_freedomboxes">FreedomBox-servere som du har gemt vil vises her.</string>
+    <string name="msg_no_discovered_freedomboxes">FreedomBox-servere som er fundet i det lokale netværk vil vises her.</string>
+    <string name="discovered">Fundne</string>
+    <string name="configured">Konfigurerede</string>
+    <string name="servers">FreedomBox-servere</string>
+    <string name="box_name">FreedomBox-navn</string>
+    <string name="username">Brugernavn</string>
+    <string name="password">Kodeord</string>
+    <string name="discovered_url">Fundet URL</string>
+    <string name="switch_title">Marker som standard</string>
+    <string name="save">Gem</string>
+    <string name="delete">Slet</string>
+    <string name="setup">Indstil</string>
+    <string name="settings">Indstillinger</string>
+    <string name="application_icon">Applikationsikon</string>
+    <string name="launch">Start</string>
+
+    </resources>
