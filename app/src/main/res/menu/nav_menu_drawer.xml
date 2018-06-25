@@ -5,34 +5,38 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_freedomboxservers"
+            android:id="@+id/nav_switch_freedombox"
             android:icon="@drawable/ic_servers"
-            android:title="FreedomBox Servers" />
+            android:title="@string/switch_freedombox" />
         <item
             android:id="@+id/nav_settings"
-            android:icon="@drawable/ic_settings"
-            android:title="Settings" />
-
+            android:icon="@drawable/ic_settings_black"
+            android:title="@string/settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_black"
+            android:title="About" />
     </group>
 
-    <item android:title="External Links">
+    <item android:title="@string/external_links">
         <menu>
             <item
-                android:id="@+id/nav_about"
-                android:icon="@drawable/ic_info"
-                android:title="About" />
-            <item
                 android:id="@+id/nav_website"
-                android:icon="@drawable/ic_home"
-                android:title="Web site" />
-            <item
-                android:id="@+id/nav_contact"
-                android:icon="@drawable/ic_contact"
-                android:title="Contact" />
+                android:icon="@drawable/ic_home_black"
+                android:title="Website" />
             <item
                 android:id="@+id/nav_faq"
-                android:icon="@drawable/ic_faq"
+                android:icon="@drawable/ic_question_answer_black"
                 android:title="FAQ" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_live_help_black"
+                android:title="Get Help" />
+            <item
+                android:id="@+id/nav_mastodon"
+                android:icon="@drawable/mastodon"
+                android:title="\@freedomboxfndn"
+                tools:ignore="HardCodedText" />
         </menu>
     </item>
 

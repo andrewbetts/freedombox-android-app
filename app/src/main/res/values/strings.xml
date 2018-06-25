@@ -23,8 +23,11 @@
     <string name="default_box" translatable="false">default_box</string>
     <string name="saved_boxes" translatable="false">saved_boxes</string>
     <string name="shortcuts" translatable="false">shortcuts</string>
-    <string name="about_url" translatable="false">https://wiki.debian.org/FreedomBox/Introduction</string>
+    <string name="about_url" translatable="false">https://wiki.debian.org/FreedomBox</string>
     <string name="website_url" translatable="false">https://freedombox.org/</string>
     <string name="contact_url" translatable="false">https://wiki.debian.org/FreedomBox/Support</string>
     <string name="faq_url" translatable="false">https://wiki.debian.org/FreedomBox/QuestionsAndAnswers</string>
+    <string name="mastodon_url" translatable="false">https://mastodon.social/@freedomboxfndn</string>
+    <string name="switch_freedombox">Switch FreedomBox</string>
+    <string name="external_links">External Links</string>
 </resources>

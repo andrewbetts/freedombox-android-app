@@ -53,6 +53,7 @@ abstract class BaseActivity : AppCompatActivity(), NavigationView.OnNavigationIt
         }
 
         val navigationView = findViewById<NavigationView>(R.id.nav_view)
+        navigationView.itemIconTintList = null
         navigationView.setNavigationItemSelectedListener(this)
     }
 
@@ -87,7 +88,7 @@ abstract class BaseActivity : AppCompatActivity(), NavigationView.OnNavigationIt
         // Handle navigation view item clicks here.
         val id = item.itemId
 
-        if (id == R.id.nav_freedomboxservers) {
+        if (id == R.id.nav_switch_freedombox) {
             startActivity(Intent(this, DiscoveryActivity::class.java))
         } else if (id == R.id.nav_settings) {
 
@@ -102,6 +103,9 @@ abstract class BaseActivity : AppCompatActivity(), NavigationView.OnNavigationIt
             startActivity(browserIntent)
         } else if (id == R.id.nav_faq) {
             val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.faq_url)))
+            startActivity(browserIntent)
+        } else if (id == R.id.nav_mastodon) {
+            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.mastodon_url)))
             startActivity(browserIntent)
         }
 
