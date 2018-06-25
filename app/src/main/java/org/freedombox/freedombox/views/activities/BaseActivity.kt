@@ -17,16 +17,53 @@
 
 package org.freedombox.freedombox.views.activities
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.support.design.widget.NavigationView
 import android.support.v4.app.Fragment
+import android.support.v4.view.GravityCompat
+import android.support.v4.widget.DrawerLayout
+import android.support.v7.app.ActionBar
 import android.support.v7.app.AppCompatActivity
+import android.support.v7.widget.Toolbar
+import android.view.MenuItem
 import org.freedombox.freedombox.R
 
-abstract class BaseActivity : AppCompatActivity() {
+
+abstract class BaseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+
+    private lateinit var mDrawerLayout: DrawerLayout
+
+    private lateinit var mToolbarLayout: Toolbar
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         setContentView(R.layout.base)
+
+        mDrawerLayout = findViewById(R.id.drawer_layout)
+
+        mToolbarLayout = findViewById(R.id.app_toolbar)
+        setSupportActionBar(mToolbarLayout)
+
+        val actionbar: ActionBar? = supportActionBar
+        actionbar?.apply {
+            setDisplayHomeAsUpEnabled(true)
+            setHomeAsUpIndicator(R.drawable.ic_menu)
+        }
+
+        val navigationView = findViewById<NavigationView>(R.id.nav_view)
+        navigationView.setNavigationItemSelectedListener(this)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
+        return when (item?.itemId) {
+            android.R.id.home -> {
+                mDrawerLayout.openDrawer(GravityCompat.START)
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 
     fun loadFragment(fragmentContainerId: Int, fragment: Fragment, addToBackStack: Boolean = false) {
@@ -44,4 +81,33 @@ abstract class BaseActivity : AppCompatActivity() {
 
         newTransaction.commit()
     }
+
+
+    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+        // Handle navigation view item clicks here.
+        val id = item.itemId
+
+        if (id == R.id.nav_freedomboxservers) {
+            startActivity(Intent(this, DiscoveryActivity::class.java))
+        } else if (id == R.id.nav_settings) {
+
+        } else if (id == R.id.nav_about) {
+            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.about_url)))
+            startActivity(browserIntent)
+        } else if (id == R.id.nav_website) {
+            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.website_url)))
+            startActivity(browserIntent)
+        } else if (id == R.id.nav_contact) {
+            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.contact_url)))
+            startActivity(browserIntent)
+        } else if (id == R.id.nav_faq) {
+            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.faq_url)))
+            startActivity(browserIntent)
+        }
+
+        val drawer = findViewById<DrawerLayout>(R.id.drawer_layout)
+        drawer.closeDrawer(GravityCompat.START)
+        return true
+    }
 }
+

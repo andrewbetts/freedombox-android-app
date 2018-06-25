@@ -94,8 +94,7 @@
                 <!--android:layout_alignParentTop="true"-->
                 <!--android:contentDescription="@string/information"-->
                 <!--android:padding="5dp"-->
-                <!--android:src="@drawable/information_outline" />-->
-            <!---->
+                <!--android:src="@drawable/information_outline"/>-->
         </RelativeLayout>
 
     </android.support.v7.widget.CardView>

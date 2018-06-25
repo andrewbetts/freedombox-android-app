@@ -27,6 +27,6 @@ class DiscoveryActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         supportActionBar?.title = getString(R.string.servers)
         loadFragment(R.id.rootLayout, DiscoveryFragment.new(savedInstanceState ?: Bundle()))
-        val fab = findViewById<FloatingActionButton>(R.id.fab)
+        //val fab = findViewById(R.id.fab) as FloatingActionButton
     }
 }

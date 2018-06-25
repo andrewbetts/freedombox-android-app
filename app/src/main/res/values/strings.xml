@@ -12,7 +12,7 @@
     <string name="password">Password</string>
     <string name="discovered_url">Discovered URL</string>
     <string name="switch_title">Set as default</string>
-    <string name="save">Save</string>
+    <string name="save">SAVE</string>
     <string name="delete">Delete</string>
     <string name="setup">Setup</string>
     <string name="settings">Settings</string>
@@ -23,4 +23,8 @@
     <string name="default_box" translatable="false">default_box</string>
     <string name="saved_boxes" translatable="false">saved_boxes</string>
     <string name="shortcuts" translatable="false">shortcuts</string>
+    <string name="about_url" translatable="false">https://wiki.debian.org/FreedomBox/Introduction</string>
+    <string name="website_url" translatable="false">https://freedombox.org/</string>
+    <string name="contact_url" translatable="false">https://wiki.debian.org/FreedomBox/Support</string>
+    <string name="faq_url" translatable="false">https://wiki.debian.org/FreedomBox/QuestionsAndAnswers</string>
 </resources>

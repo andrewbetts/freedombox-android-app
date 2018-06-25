@@ -42,10 +42,12 @@ class LauncherActivity : BaseActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        val intent = Intent(this, SetupActivity::class.java)
-        intent.putExtra(getString(R.string.current_box),
-                this.intent.extras.getParcelable<ConfigModel>(getString(R.string.current_box)))
-        startActivity(intent)
+        if(item?.getItemId() == R.id.action_edit) {
+            val intent = Intent(this, SetupActivity::class.java)
+            intent.putExtra(getString(R.string.current_box),
+                    this.intent.extras.getParcelable<ConfigModel>(getString(R.string.current_box)))
+            startActivity(intent)
+        }
         return super.onOptionsItemSelected(item)
     }
 }
