@@ -29,6 +29,7 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
 import android.view.MenuItem
 import org.freedombox.freedombox.R
+import java.security.CodeSigner
 
 
 abstract class BaseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -85,28 +86,17 @@ abstract class BaseActivity : AppCompatActivity(), NavigationView.OnNavigationIt
 
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        // Handle navigation view item clicks here.
         val id = item.itemId
 
-        if (id == R.id.nav_switch_freedombox) {
-            startActivity(Intent(this, DiscoveryActivity::class.java))
-        } else if (id == R.id.nav_settings) {
-
-        } else if (id == R.id.nav_about) {
-            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.about_url)))
-            startActivity(browserIntent)
-        } else if (id == R.id.nav_website) {
-            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.website_url)))
-            startActivity(browserIntent)
-        } else if (id == R.id.nav_contact) {
-            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.contact_url)))
-            startActivity(browserIntent)
-        } else if (id == R.id.nav_faq) {
-            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.faq_url)))
-            startActivity(browserIntent)
-        } else if (id == R.id.nav_mastodon) {
-            val browserIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.mastodon_url)))
-            startActivity(browserIntent)
+        when (item.itemId) {
+            R.id.nav_switch_freedombox -> startActivity(Intent(this, DiscoveryActivity::class.java))
+            R.id.nav_settings -> TODO("Settings Page")
+            R.id.nav_about -> startActivity(Intent(this, AboutActivity::class.java))
+            R.id.nav_website -> startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.website_url))))
+            R.id.nav_contact -> startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.contact_url))))
+            R.id.nav_faq -> startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.faq_url))))
+            R.id.nav_mastodon -> startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.mastodon_url))))
+            else -> return false
         }
 
         val drawer = findViewById<DrawerLayout>(R.id.drawer_layout)

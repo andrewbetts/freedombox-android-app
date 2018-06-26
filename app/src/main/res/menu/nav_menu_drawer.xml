@@ -18,6 +18,16 @@
             android:title="About" />
     </group>
 
+    <item android:title="News &amp; Updates">
+        <menu>
+            <item
+                android:id="@+id/nav_mastodon"
+                android:icon="@drawable/mastodon"
+                android:title="\@freedomboxfndn"
+                tools:ignore="HardCodedText" />
+        </menu>
+    </item>
+
     <item android:title="@string/external_links">
         <menu>
             <item
@@ -32,11 +42,6 @@
                 android:id="@+id/nav_contact"
                 android:icon="@drawable/ic_live_help_black"
                 android:title="Get Help" />
-            <item
-                android:id="@+id/nav_mastodon"
-                android:icon="@drawable/mastodon"
-                android:title="\@freedomboxfndn"
-                tools:ignore="HardCodedText" />
         </menu>
     </item>
 
