@@ -18,6 +18,7 @@
         <activity
             android:name=".views.activities.MainActivity"
             android:theme="@style/FreedomBoxNoActionBarTheme"
+            android:configChanges="orientation|screenSize"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +27,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".views.activities.LauncherActivity" />
+        <activity android:name=".views.activities.LauncherActivity"
+            android:configChanges="orientation|screenSize"/>
 
         <activity android:name=".views.activities.DiscoveryActivity" />
 
