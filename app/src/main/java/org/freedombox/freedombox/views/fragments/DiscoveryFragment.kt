@@ -170,7 +170,7 @@ class DiscoveryFragment : BaseFragment() {
                     serviceInfo.host.repr(), false))
             Log.d(TAG, discoveredBoxList[0].boxName)
 
-            activity!!.runOnUiThread {
+            activity?.runOnUiThread {
                 discoveredBoxListAdapter.notifyDataSetChanged()
             }
 
