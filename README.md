@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/freedombox/android-app.svg?branch=master)](https://travis-ci.org/freedombox/android-app)
+[![build status](https://salsa.debian.org/freedombox-team/android-app/badges/master/build.svg)](https://salsa.debian.org/freedombox-team/android-app/commits/master)
 
 # FreedomBox Android App
 App to access FreedomBox services from Android devices.
