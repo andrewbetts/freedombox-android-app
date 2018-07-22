@@ -3,11 +3,11 @@
     <string name="desc_splash_logo">స్ప్లాష్ లోగో</string>
     <string name="desc_navigate_next">తదుపరికి నడవండి</string>
     <string name="msg_apps_not_available">ఆప్ లు అందుబాటులో లేవు. దయచేసి మీ నెట్వర్క్ లేదా ఫ్రీడంబాక్స్ URLను సరిచూసుకోండి.</string>
-    <string name="msg_no_configured_freedomboxes">మీచే దాచబడిన ఫ్రీడంబాక్స్ సేవికలు ఇక్కడ కనబడతాయి.</string>
-    <string name="msg_no_discovered_freedomboxes">లోకల్ నెట్వర్కులో కనుగొనబడిన ఫ్రీడంబాక్స్ సేవికలు ఇక్కడ కనబడతాయి.</string>
+    <string name="msg_no_configured_freedomboxes">మీచే దాచబడిన ఫ్రీడంబాక్స్ సేవకాలు ఇక్కడ కనబడతాయి.</string>
+    <string name="msg_no_discovered_freedomboxes">స్థానిక నెట్వర్కులో కనుగొనబడిన ఫ్రీడంబాక్స్ సేవకాలు ఇక్కడ కనబడతాయి.</string>
     <string name="discovered">కనుగొనబడినవి</string>
     <string name="configured">ఆకృతీకరించబడినవి</string>
-    <string name="servers">ఫ్రీడంబాక్స్ సేవికలు</string>
+    <string name="servers">ఫ్రీడంబాక్స్ సేవకాలు</string>
     <string name="box_name">ఫ్రీడమ్‌బాక్స్ పేరు</string>
     <string name="username">వాడుకరిపేరు</string>
     <string name="password">సంకేతపదం</string>
