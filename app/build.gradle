@@ -63,7 +63,7 @@ dependencies {
 
     compile 'com.android.volley:volley:1.0.0'
 
-    compile 'com.google.code.gson:gson:2.8.2'
+    compile 'com.google.code.gson:gson:2.8.5'
 
     // Dagger
     compile "com.google.dagger:dagger:$dagger_version"
