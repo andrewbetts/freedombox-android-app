@@ -23,7 +23,7 @@ data class Shortcuts(val shortcuts: List<Shortcut>)
 
 data class Shortcut(val name: String,
                     @SerializedName("short_description") val shortDescription: String,
-                    val description: List<String>,
+                    val description: List<String>?,
                     @SerializedName("icon_url") val iconUrl: String,
                     val clients: List<Client>)
 
