@@ -29,7 +29,6 @@ import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
 import android.view.MenuItem
 import org.freedombox.freedombox.R
-import java.security.CodeSigner
 
 
 abstract class BaseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -90,7 +89,7 @@ abstract class BaseActivity : AppCompatActivity(), NavigationView.OnNavigationIt
 
         when (item.itemId) {
             R.id.nav_switch_freedombox -> startActivity(Intent(this, DiscoveryActivity::class.java))
-            R.id.nav_settings -> TODO("Settings Page")
+            R.id.nav_settings -> startActivity(Intent(this, SettingsActivity::class.java))
             R.id.nav_about -> startActivity(Intent(this, AboutActivity::class.java))
             R.id.nav_website -> startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.website_url))))
             R.id.nav_contact -> startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.contact_url))))

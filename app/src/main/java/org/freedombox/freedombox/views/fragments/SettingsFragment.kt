@@ -15,17 +15,19 @@
  * along with FreedomBox. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.freedombox.freedombox.views.activities
+package org.freedombox.freedombox.views.fragments
 
 import android.os.Bundle
 import org.freedombox.freedombox.R
-import org.freedombox.freedombox.views.fragments.AboutFragment
+import org.freedombox.freedombox.components.AppComponent
 
-class AboutActivity : BaseActivity() {
+class SettingsFragment : BaseFragment() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        supportActionBar?.title = "About"
-        loadFragment(R.id.rootLayout, AboutFragment.new(savedInstanceState ?: Bundle()))
+    override fun getLayoutId(): Int = R.layout.fragment_about
+
+    override fun injectFragment(appComponent: AppComponent) = appComponent.inject(this)
+
+    companion object {
+        fun new(args: Bundle) = SettingsFragment().apply{ arguments = args }
     }
 }

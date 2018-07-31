@@ -29,12 +29,10 @@
 
         <activity android:name=".views.activities.LauncherActivity"
             android:configChanges="orientation|screenSize"/>
-
         <activity android:name=".views.activities.DiscoveryActivity" />
-
         <activity android:name=".views.activities.SetupActivity" />
-
         <activity android:name=".views.activities.AboutActivity" />
+        <activity android:name=".views.activities.SettingsActivity" />
 
     </application>
 </manifest>
