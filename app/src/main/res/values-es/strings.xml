@@ -12,11 +12,13 @@
     <string name="password">Clave</string>
     <string name="discovered_url">URL encontrada</string>
     <string name="switch_title">Fijar como valor por defecto</string>
-    <string name="save">Guardar</string>
+    <string name="save">GUARDAR</string>
     <string name="delete">Borrar</string>
     <string name="setup">Configuración</string>
     <string name="settings">Ajustes</string>
     <string name="application_icon">Icono de la aplicación</string>
     <string name="launch">Ejecutar</string>
 
-    </resources>
+    <string name="switch_freedombox">Cambiar FreedomBox</string>
+    <string name="external_links">Enlaces externos</string>
+</resources>
