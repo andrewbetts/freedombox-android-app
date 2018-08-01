@@ -24,4 +24,6 @@
     <string name="installation_status">వ్యవస్థాపన స్థితి</string>
     <string name="launch">ప్రారంభించు</string>
 
-    </resources>
+    <string name="switch_freedombox">ఫ్రీడమ్‌బాక్స్ మార్చు</string>
+    <string name="external_links">బాహ్య లంకెలు</string>
+</resources>
