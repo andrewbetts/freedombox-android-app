@@ -19,4 +19,6 @@
     <string name="application_icon">अनुप्रयोग चिह्न</string>
     <string name="launch">प्रक्षेपण करें</string>
 
-    </resources>
+    <string name="switch_freedombox">फ्रीडमबॉक्स स्विच करें</string>
+    <string name="external_links">बाहरी कड़ियां</string>
+</resources>
