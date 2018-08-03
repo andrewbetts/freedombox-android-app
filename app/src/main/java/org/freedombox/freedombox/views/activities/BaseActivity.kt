@@ -85,7 +85,6 @@ abstract class BaseActivity : AppCompatActivity(), NavigationView.OnNavigationIt
 
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-        val id = item.itemId
 
         when (item.itemId) {
             R.id.nav_switch_freedombox -> startActivity(Intent(this, DiscoveryActivity::class.java))

@@ -23,7 +23,7 @@ import org.freedombox.freedombox.components.AppComponent
 
 class SettingsFragment : BaseFragment() {
 
-    override fun getLayoutId(): Int = R.layout.fragment_about
+    override fun getLayoutId(): Int = R.layout.fragment_settings
 
     override fun injectFragment(appComponent: AppComponent) = appComponent.inject(this)
 
