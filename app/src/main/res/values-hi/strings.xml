@@ -21,4 +21,9 @@
 
     <string name="switch_freedombox">फ्रीडमबॉक्स स्विच करें</string>
     <string name="external_links">बाहरी कड़ियां</string>
-</resources>
+<string name="about">बारे में</string>
+    <string name="website">वेबसाइट</string>
+    <string name="faq">अक्सर पूछे जाने वाले प्रश्न</string>
+    <string name="get_help">मदद प्राप्त करें</string>
+
+    </resources>
