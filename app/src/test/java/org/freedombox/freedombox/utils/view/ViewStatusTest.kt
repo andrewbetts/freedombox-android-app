@@ -19,7 +19,7 @@ package org.freedombox.freedombox.utils.view
 
 import android.widget.EditText
 import android.widget.Switch
-import junit.framework.Assert
+import org.junit.Assert
 import org.freedombox.freedombox.BuildConfig
 import org.junit.Test
 import org.junit.runner.RunWith
