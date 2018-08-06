@@ -15,10 +15,10 @@
         <item
             android:id="@+id/nav_about"
             android:icon="@drawable/ic_info_black"
-            android:title="About" />
+            android:title="@string/about" />
     </group>
 
-    <item android:title="News &amp; Updates">
+    <item android:title="@string/news_and_updates">
         <menu>
             <item
                 android:id="@+id/nav_mastodon"
@@ -33,15 +33,15 @@
             <item
                 android:id="@+id/nav_website"
                 android:icon="@drawable/ic_home_black"
-                android:title="Website" />
+                android:title="@string/website" />
             <item
                 android:id="@+id/nav_faq"
                 android:icon="@drawable/ic_question_answer_black"
-                android:title="FAQ" />
+                android:title="@string/faq" />
             <item
                 android:id="@+id/nav_contact"
                 android:icon="@drawable/ic_live_help_black"
-                android:title="Get Help" />
+                android:title="@string/get_help" />
         </menu>
     </item>
 

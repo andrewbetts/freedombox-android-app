@@ -28,6 +28,10 @@
         your FreedomBox server helping you with installing, configuring and
         using the Android applications corresponding to the services running
         on your FreedomBox server.</string>
+    <string name="news_and_updates">News &amp; Updates</string>
+    <string name="website">Website</string>
+    <string name="faq">FAQ</string>
+    <string name="get_help">Get Help</string>
 
     <string name="current_box" translatable="false">current_box</string>
     <string name="default_box" translatable="false">default_box</string>
