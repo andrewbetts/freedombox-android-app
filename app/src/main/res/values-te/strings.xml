@@ -26,4 +26,12 @@
 
     <string name="switch_freedombox">ఫ్రీడమ్‌బాక్స్ మార్చు</string>
     <string name="external_links">బాహ్య లంకెలు</string>
-</resources>
+<string name="about">గురించి</string>
+    <string name="about_freedombox">ఫ్రీడంబాక్స్ అనేది వ్యక్తిగత ఆంతరంగికతను సృష్తించి మరియు పొందుపరిచే స్వేచ్ఛా అనువర్తనాలు కలిగిన ఒక స్వేచ్ఛా ఆపరేటింగ్ సిస్ట్ంను నడిపే ఒక వ్యక్తిగత సేవకం.</string>
+    <string name="about_app">ఈ ఆండ్రాయిడ్ అనువర్తనం మీ ఫ్రీడంబాక్స్ సేవకానికి ఒక సహచరిగా వ్యవహరిస్తూ మీ ఫ్రీడంబాక్స్ సేవకంపై నడుస్తున్న సేవలకు సంబంధించిన ఆండ్రాయిడ్ అనువర్తనాలను నిక్షిప్తం చేయడానికి, ఆకృతీకరించడానికి మరియు ఉపయోగించడానికి తోడ్పడుతుంది.</string>
+    <string name="news_and_updates">వార్తలు &amp; నవీకరణలు</string>
+    <string name="website">వెబ్‌సైటు</string>
+    <string name="faq">తరచూ అడిగే ప్రశ్నలు</string>
+    <string name="get_help">సహాయం పొందండి</string>
+
+    </resources>
