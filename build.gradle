@@ -17,10 +17,12 @@
 
 buildscript {
     ext {
-        kotlin_version = '1.2.30'
-        dagger_version = '2.11'
-        robolectric_version = '3.5.1'
-        supportlib_version = '27.1.1'
+        versions = [
+            kotlin: '1.2.60',
+            dagger: '2.11',
+            robolectric: '3.5.1',
+            supportLib: '27.1.1'
+        ]
     }
 
     repositories {
@@ -30,7 +32,7 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.1.3'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
     }
 }
 
