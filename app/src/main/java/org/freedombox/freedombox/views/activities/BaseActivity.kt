@@ -88,7 +88,7 @@ abstract class BaseActivity : AppCompatActivity(), NavigationView.OnNavigationIt
 
         when (item.itemId) {
             R.id.nav_switch_freedombox -> startActivity(Intent(this, DiscoveryActivity::class.java))
-            R.id.nav_settings -> startActivity(Intent(this, SettingsActivity::class.java))
+            // R.id.nav_settings -> startActivity(Intent(this, SettingsActivity::class.java))
             R.id.nav_about -> startActivity(Intent(this, AboutActivity::class.java))
             R.id.nav_website -> startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.website_url))))
             R.id.nav_contact -> startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.contact_url))))
