@@ -12,11 +12,21 @@
     <string name="password">Jelszó</string>
     <string name="discovered_url">Felismert URL</string>
     <string name="switch_title">Beállítás alapértelmezettként</string>
-    <string name="save">Mentés</string>
+    <string name="save">MENTÉS</string>
     <string name="delete">Törlés</string>
     <string name="setup">Beállítások</string>
     <string name="settings">Beállítások</string>
     <string name="application_icon">Alkalmazásikon</string>
     <string name="launch">Indítás</string>
+
+    <string name="about">Névjegy</string>
+    <string name="switch_freedombox">FreedomBox váltása</string>
+    <string name="external_links">Külső hivatkozások</string>
+    <string name="about_freedombox">A FreedomBox egy szabad operációs rendszert futtató, szabad alkalmazásokból álló személyi szerver, melyet a magánszféra megőrzésének érdekében fejlesztettek.</string>
+    <string name="about_app">Ez az Android társalkalmazás egy olyan kiegészítő a FreedomBox szerveredhez, amely segítséget nyújt a szerveren futó szolgáltatásoknak megfelelő Android alkalmazások telepítéséhez és beállításához.</string>
+    <string name="news_and_updates">Hírek &amp; frissítések</string>
+    <string name="website">Weboldal</string>
+    <string name="faq">GYIK</string>
+    <string name="get_help">További segítség</string>
 
     </resources>
