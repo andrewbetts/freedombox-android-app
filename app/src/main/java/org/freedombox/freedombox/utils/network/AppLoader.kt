@@ -90,7 +90,9 @@ fun getApps(context: Context, uri: String,
             onFailure: () -> Unit) {
 
     // Trust certificates of the discovered boxes on the local network
-    if (isPrivateIPAddress(uri.split("/")[2])) trustAnyCert() else trustValidCert()
+    if (isPrivateIPAddress(uri.split("/")[2].split(":")[0]))
+        trustAnyCert()
+    else trustValidCert()
 
     val requestQueue = Volley.newRequestQueue(context)
 
