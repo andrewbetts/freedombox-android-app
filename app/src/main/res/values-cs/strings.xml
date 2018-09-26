@@ -1,2 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="app_name">FreedomBox</string>
+    <string name="about">O aplikaci</string>
+    <string name="desc_splash_logo">Logo při spouštění</string>
+    <string name="msg_apps_not_available">Aplikace nejsou k dispozici. Zkontrolujte síť nebo zkontrolujte zadání URL adresy FreedomBox.</string>
+    <string name="msg_no_configured_freedomboxes">Zde se objeví FreedomBox servery, pro které nastavili údaje.</string>
+    <string name="msg_no_discovered_freedomboxes">Zde se objeví FreedomBox servery, objevené v místní síti.</string>
+    <string name="discovered">Objeveno</string>
+    <string name="configured">Nastaveno</string>
+    <string name="servers">FreedomBox servery</string>
+    <string name="box_name">Název FreedomBox</string>
+    <string name="username">Uživatelské jméno</string>
+    <string name="password">Heslo</string>
+    <string name="discovered_url">Objevená URL adresa</string>
+    <string name="switch_title">Nastavit jako výchozí</string>
+    <string name="save">ULOŽIT</string>
+    <string name="delete">Smazat</string>
+    <string name="setup">Nastavit</string>
+    <string name="settings">Nastavení</string>
+    <string name="application_icon">Ikona aplikace</string>
+    <string name="launch">Spustit</string>
+    <string name="switch_freedombox">Přepnout FreedomBox</string>
+    <string name="external_links">Externí odkazy</string>
+    <string name="about_freedombox">FreedomBox je osobní server provozovaný na svobodném operačním systému a aplikacích, navržený pro vytvoření a zachování osobního soukromí.</string>
+    <string name="about_app">Tato aplikace pro Android funguje je doprovodnou k vašemu FreedomBox serveru a pomáhá vám s instalací, nastavením a používáním Android aplikací odpovídajících službám provozovaným na vašem FreedomBox serveru.</string>
+    <string name="news_and_updates">Novinky a aktualizace</string>
+    <string name="website">Webové stránky</string>
+    <string name="faq">Často kladené dotazy</string>
+    <string name="get_help">Získat podporu</string>
+
+    </resources>
