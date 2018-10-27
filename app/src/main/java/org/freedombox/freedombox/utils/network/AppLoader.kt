@@ -30,6 +30,7 @@ import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import org.freedombox.freedombox.BASE_URL
+import org.freedombox.freedombox.models.Client
 import org.freedombox.freedombox.models.Platform
 import org.freedombox.freedombox.models.Shortcut
 import java.net.InetAddress
@@ -151,8 +152,16 @@ fun launchApp(shortcut: Shortcut, context: Context, baseUrl: String = BASE_URL) 
 fun getLaunchString(shortcut: Shortcut, packageManager: PackageManager, baseUrl: String = BASE_URL): String {
     val androidClients = shortcut.clients.filter { it.platforms.any { it.os == "android" } }
     return if (androidClients.isEmpty()) {
-        val webClients = shortcut.clients.filter { it.platforms.any { it.type == "web" } }
-        val platform = webClients.first().platforms.find { it.type == "web" }
+        var clients: List<Client>;
+        var platform: Platform? = null;
+        clients = shortcut.clients.filter { it.platforms.any { it.type == "web" } }
+        if (clients.size > 0) {
+            platform = clients.first().platforms.find { it.type == "web" }
+        }
+        else {
+            clients = shortcut.clients.filter { it.platforms.any { it.type == "download" } }
+            platform = clients.first().platforms.find { it.type == "download" }
+        }
         if (platform != null) {
             if (!platform.url.startsWith("http")) {
                 urlJoin(baseUrl, platform.url)
@@ -197,7 +206,7 @@ fun getAndroidPackageNames(shortcut: Shortcut): List<String> {
 }
 
 fun extractPackageName(platform: Platform): String {
-    val delimiter = if(platform.storeName == "f-droid") "/" else "="
+    val delimiter = if (platform.storeName == "f-droid") "/" else "="
     return platform.url.split(delimiter).last()
 }
 
