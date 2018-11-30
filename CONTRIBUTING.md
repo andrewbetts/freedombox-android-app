@@ -1,9 +1,10 @@
+# Contributing
 Here are some contributing guidelines for authors and reviewers of code changes.
 The goal is a readable log of code changes, to enhance transparency of their
 purpose and simplify debugging. Consider these guidelines as best practices, not
 as absolute rules - we're all learning by doing, and imperfect changes and
 commits are much better than none at all. For an introduction how to edit and
-test the code, have look into the HACKING file. Note that you need some basic
+test the code, have look into the HACKING.md file. Note that you need some basic
 understanding of Git to contribute; there are many tutorials in the Internet
 that we cannot repeat here.
 
@@ -12,15 +13,18 @@ Naming conventions:
 * 'Code change', 'patch', and 'commit' are used interchangeably.
 * 'Author' and 'contributor' are used interchangeably.
 * Git 'log' and 'history' are used interchangeably.
-* PR - pull request
+* PR, MR - pull request and merge request, used interchangeably.
 * 'Merging' often means 'applying a patch to git history' in a general sense,
   not literal execution of the command `git merge`.
 
 
 # For authors of patches
 * If you would like to contribute, but are unsure what to do, just ask. There
-  are usually also issues tagged as "beginners", which might be a good starting
-  point.
+  are usually also issues tagged as 'beginner', which might be a good starting
+  point to work on and have a known solution.  Also, other developers are ready
+  to guide you on the implementation for such tasks.
+  Feel free to pickup a task from the issue by announcing it on the issue or by
+  creating a new issue for whatever task you are going to work on.
 * To get your changes included, you must open a pull request (PR), to get them
   reviewed. Briefly, fork the repository to your account, and edit, commit and
   push there. Then you can create a PR to the main repository.
@@ -45,6 +49,8 @@ Naming conventions:
   to a [Developer Certificate of Origin](http://developercertificate.org/).
 * If (part of) your code changes were inspired or plainly copied from another
   source, please indicate this in the PR, so the reviewer can handle it.
+* If your PR is not ready for merging yet, the title of your PR must start with
+  `WIP:`
 * Have fun contributing :)
 
 
@@ -78,6 +84,9 @@ Naming conventions:
 * In case more fundamental changes are necessary, or if the contributor is new,
   try to encourage them to make changes by giving appropriate feedback. This is
   a major way how we mentor new contributors.
+* Any PR whose title starts with `WIP:` cannot be merged. Communicate with the
+  author on what the pending changes are. Get the author to complete them or
+  complete them yourself in case of an emergency.
 * Have fun reviewing :)
 
 
@@ -92,7 +101,7 @@ Naming conventions:
 
 
 ## Use of GPG
-* Sign all commits with GPG. This means avoiding GitHub's fancy merge and rebase
+* Sign all commits with GPG. This means avoiding GitLab's fancy merge and rebase
   buttons and doing it locally, where your private key is.
 * In case a contributor signed with GPG, rebasing will strip it away. To
   compensate, put your GPG signature on the rebased commits. Given that we have
