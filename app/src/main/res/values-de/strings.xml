@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">FreedomBox</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FreedomBox</string>
     <string name="desc_splash_logo">Startlogo</string>
     <string name="msg_apps_not_available">Anwendungen sind nicht erreichbar. Bitte prüfen Sie das Netzwerk oder die FreedomBox URL.</string>
     <string name="msg_no_configured_freedomboxes">Hier werden FreedomBox-Server erscheinen, die Sie konfiguriert haben.</string>
@@ -11,23 +12,20 @@
     <string name="username">Benutzername</string>
     <string name="password">Passwort</string>
     <string name="discovered_url">Entdeckte URL</string>
-    <string name="switch_title">Als Standart setzen</string>
+    <string name="switch_title">Als Standard setzen</string>
     <string name="save">SPEICHERN</string>
     <string name="delete">Löschen</string>
     <string name="setup">Einrichtung</string>
     <string name="settings">Einstellungen</string>
     <string name="application_icon">Anwendungssymbol</string>
     <string name="launch">Starten</string>
-
     <string name="about">Info</string>
     <string name="switch_freedombox">Wechsle FreedomBox</string>
     <string name="external_links">Externe Links</string>
     <string name="about_freedombox">FreedomBox ist ein persönlicher Server mit freiem Betriebssystem und freien Anwendungen die entworfen wurden um Ihre persönliche Privatsphäre zu wahren.</string>
     <string name="about_app">Diese Android-Anwendung agiert als Begleitperson für deinen FreedomBox-Server und hilft dir beim Installieren, Konfigurieren und Nutzen der Android-Anwendungen die zu den Diensten gehören, die auf deinem Freedombox-Server laufen.</string>
-
     <string name="news_and_updates">Neuigkeiten und Updates</string>
     <string name="website">Webseite</string>
     <string name="faq">Oft gestellte Fragen</string>
     <string name="get_help">Hole Hilfe</string>
-
-    </resources>
+</resources>
