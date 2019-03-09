@@ -21,13 +21,12 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 28
 
     defaultConfig {
         applicationId "org.freedombox.freedombox"
         minSdkVersion 16
-        targetSdkVersion 27
+        targetSdkVersion 28
         versionCode 4
         versionName "0.4"
         vectorDrawables.useSupportLibrary = true
