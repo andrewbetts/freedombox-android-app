@@ -20,20 +20,20 @@ package org.freedombox.freedombox.views.activities
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import android.support.design.widget.NavigationView
-import android.support.v4.app.Fragment
-import android.support.v4.view.GravityCompat
-import android.support.v4.widget.DrawerLayout
-import android.support.v7.app.ActionBar
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.Toolbar
+import com.google.android.material.navigation.NavigationView
+import androidx.fragment.app.Fragment
+import androidx.core.view.GravityCompat
+import androidx.drawerlayout.widget.DrawerLayout
+import androidx.appcompat.app.ActionBar
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import android.view.MenuItem
 import org.freedombox.freedombox.R
 
 
 abstract class BaseActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
-    private lateinit var mDrawerLayout: DrawerLayout
+    private lateinit var mDrawerLayout: androidx.drawerlayout.widget.DrawerLayout
 
     private lateinit var mToolbarLayout: Toolbar
 
@@ -67,7 +67,7 @@ abstract class BaseActivity : AppCompatActivity(), NavigationView.OnNavigationIt
         }
     }
 
-    fun loadFragment(fragmentContainerId: Int, fragment: Fragment, addToBackStack: Boolean = false) {
+    fun loadFragment(fragmentContainerId: Int, fragment: androidx.fragment.app.Fragment, addToBackStack: Boolean = false) {
         val transaction = this.supportFragmentManager.beginTransaction()
         transaction.remove(fragment)
         transaction.commit()
@@ -97,7 +97,7 @@ abstract class BaseActivity : AppCompatActivity(), NavigationView.OnNavigationIt
             else -> return false
         }
 
-        val drawer = findViewById<DrawerLayout>(R.id.drawer_layout)
+        val drawer = findViewById<androidx.drawerlayout.widget.DrawerLayout>(R.id.drawer_layout)
         drawer.closeDrawer(GravityCompat.START)
         return true
     }

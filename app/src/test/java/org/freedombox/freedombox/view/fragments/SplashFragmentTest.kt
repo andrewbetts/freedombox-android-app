@@ -17,9 +17,10 @@
 
 package org.freedombox.freedombox.view.fragments
 
+import android.content.Context
 import android.content.Intent
 import android.preference.PreferenceManager
-import org.freedombox.freedombox.BuildConfig
+import androidx.test.core.app.ApplicationProvider
 import org.freedombox.freedombox.views.activities.DiscoveryActivity
 import org.freedombox.freedombox.views.activities.LauncherActivity
 import org.freedombox.freedombox.views.activities.MainActivity
@@ -29,17 +30,14 @@ import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.Robolectric
 import org.robolectric.RobolectricTestRunner
-import org.robolectric.RuntimeEnvironment
-import org.robolectric.annotation.Config
 import org.robolectric.shadows.ShadowApplication
 import org.robolectric.shadows.ShadowLooper
 
 
 @RunWith(RobolectricTestRunner::class)
-@Config(constants = BuildConfig::class)
 class SplashFragmentTest {
     val key = "saved_boxes"
-    val applicationContext = RuntimeEnvironment.application.applicationContext
+    val applicationContext = ApplicationProvider.getApplicationContext<Context>()
     val sharedPreferences = PreferenceManager
         .getDefaultSharedPreferences(applicationContext)
 

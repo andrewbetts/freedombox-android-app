@@ -19,8 +19,8 @@ package org.freedombox.freedombox.views.adapter
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.support.v7.content.res.AppCompatResources
-import android.support.v7.widget.RecyclerView
+import androidx.appcompat.content.res.AppCompatResources
+import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -33,7 +33,7 @@ class DiscoveryListAdapter(private val context: Context,
                            private val boxList: List<ConfigModel>,
                            private val isConfigured: Boolean,
                            private val itemClickListener: DiscoveryListAdapter.OnItemClickListener):
-        RecyclerView.Adapter<DiscoveryListAdapter.DiscoveryListItemViewHolder>() {
+        androidx.recyclerview.widget.RecyclerView.Adapter<DiscoveryListAdapter.DiscoveryListItemViewHolder>() {
 
     override fun onBindViewHolder(holder: DiscoveryListItemViewHolder, position: Int) {
         holder.let {
@@ -57,7 +57,7 @@ class DiscoveryListAdapter(private val context: Context,
         return 0
     }
 
-    inner class DiscoveryListItemViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+    inner class DiscoveryListItemViewHolder(view: View) : androidx.recyclerview.widget.RecyclerView.ViewHolder(view) {
         var boxNameTextView: TextView = view.findViewById<TextView>(R.id.boxName) as TextView
         var portNumberTextView: TextView = view.findViewById<TextView>(R.id.port) as TextView
         var boxIcon: ImageView = view.findViewById<ImageView>(R.id.box_icon) as ImageView

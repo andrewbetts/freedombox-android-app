@@ -18,7 +18,7 @@
 package org.freedombox.freedombox.views.fragments
 
 import android.os.Bundle
-import android.support.design.widget.Snackbar
+import com.google.android.material.snackbar.Snackbar
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -26,7 +26,7 @@ import org.freedombox.freedombox.applications.FreedomBoxApp
 import org.freedombox.freedombox.components.AppComponent
 import org.freedombox.freedombox.views.IBaseView
 
-abstract class BaseFragment : android.support.v4.app.Fragment(), IBaseView {
+abstract class BaseFragment : androidx.fragment.app.Fragment(), IBaseView {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 

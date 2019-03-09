@@ -17,7 +17,7 @@
 
 package org.freedombox.freedombox.views
 
-import android.support.design.widget.Snackbar
+import com.google.android.material.snackbar.Snackbar
 
 interface IBaseView {
     fun showSnackMessage(message: String, duration: Int = Snackbar.LENGTH_SHORT)

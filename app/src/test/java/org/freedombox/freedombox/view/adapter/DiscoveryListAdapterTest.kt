@@ -17,7 +17,7 @@
 package org.freedombox.freedombox.view.adapter
 
 import android.content.Context
-import org.freedombox.freedombox.BuildConfig
+import androidx.test.core.app.ApplicationProvider
 import org.freedombox.freedombox.views.adapter.DiscoveryListAdapter
 import org.freedombox.freedombox.views.model.ConfigModel
 import org.junit.Assert
@@ -25,14 +25,11 @@ import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.robolectric.RuntimeEnvironment
-import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
-@Config(constants = BuildConfig::class)
 class DiscoveryListAdapterTest {
 
-    private val applicationContext: Context = RuntimeEnvironment.application.applicationContext
+    private val applicationContext: Context = ApplicationProvider.getApplicationContext()
     private lateinit var listAdapter: DiscoveryListAdapter
     private val box1 = ConfigModel("box1", "alice.freedombox.rocks", false)
     private val box2 = ConfigModel("box2", "bob.freedombox.rocks", false)

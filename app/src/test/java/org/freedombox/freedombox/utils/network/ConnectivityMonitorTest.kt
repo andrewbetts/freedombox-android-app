@@ -17,22 +17,21 @@
 
 package org.freedombox.freedombox.utils.network
 
+import android.content.Context
 import android.content.Intent
 import android.net.ConnectivityManager
-import org.freedombox.freedombox.BuildConfig
+import androidx.test.core.app.ApplicationProvider.getApplicationContext
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.robolectric.RuntimeEnvironment.application
-import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
-@Config(constants = BuildConfig::class)
 class ConnectivityMonitorTest {
 
     @Test
     fun testSubscriber() {
+        val application = getApplicationContext<Context>()
         val monitor = ConnectivityMonitor(application.applicationContext)
 
         monitor.subscribe {

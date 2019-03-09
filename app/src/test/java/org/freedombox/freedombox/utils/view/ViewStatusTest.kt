@@ -17,45 +17,44 @@
 
 package org.freedombox.freedombox.utils.view
 
+import android.content.Context
 import android.widget.EditText
 import android.widget.Switch
+import androidx.test.core.app.ApplicationProvider
 import org.junit.Assert
-import org.freedombox.freedombox.BuildConfig
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.robolectric.RuntimeEnvironment
-import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
-@Config(constants = BuildConfig::class)
 class ViewStatusTest {
 
     private val value = "test"
+    private var application = ApplicationProvider.getApplicationContext<Context>()
 
     @Test
     fun shouldReturnEnteredTextInTextBox() {
-        val editText = EditText(RuntimeEnvironment.application)
+        val editText = EditText(application)
         editText.setText(value)
         Assert.assertEquals(value, getEnteredText(editText))
     }
 
     @Test
     fun shouldReturnEmptyWhenNotEnteredText() {
-        val editText = EditText(RuntimeEnvironment.application)
+        val editText = EditText(application)
         Assert.assertEquals("", getEnteredText(editText))
     }
 
     @Test
     fun shouldReturnTrueWhenSwitchIsOn() {
-        val switch = Switch(RuntimeEnvironment.application)
+        val switch = Switch(application)
         switch.isChecked = true
         Assert.assertTrue(getSwitchStatus(switch))
     }
 
     @Test
     fun shouldReturnFalseWhenSwitchIsOff() {
-        val switch = Switch(RuntimeEnvironment.application)
+        val switch = Switch(application)
         switch.isChecked = false
         Assert.assertFalse(getSwitchStatus(switch))
     }

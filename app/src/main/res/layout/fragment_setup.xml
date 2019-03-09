@@ -57,7 +57,7 @@
         android:layout_below="@+id/defaultStatus"
         android:text="@string/save" />
 
-    <android.support.v7.widget.AppCompatButton
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/deleteConfig"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="match_parent"
