@@ -17,6 +17,7 @@
 package org.freedombox.freedombox.view.adapter
 
 import android.content.Context
+import androidx.test.core.app.ApplicationProvider
 import com.google.gson.GsonBuilder
 import kotlinx.android.synthetic.main.app_container.view.*
 import org.freedombox.freedombox.BuildConfig
@@ -33,9 +34,8 @@ import org.robolectric.annotation.Config
 
 
 @RunWith(RobolectricTestRunner::class)
-@Config(constants = BuildConfig::class)
 class GridAdapterTest {
-    private val applicationContext: Context = application.applicationContext
+    private val applicationContext: Context = ApplicationProvider.getApplicationContext()
     private val gridAdapter = GridAdapter(applicationContext, imageRenderer = ImageRenderer(applicationContext), baseUrl = "https://localhost")
     private val gson = GsonBuilder().create()
     private var items = mutableListOf<Shortcut>()

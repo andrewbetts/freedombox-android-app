@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources><string name="app_name">ఫ్రీడంబాక్స్</string>
     <string name="desc_splash_logo">స్ప్లాష్ లోగో</string>
-    <string name="desc_navigate_next">తదుపరికి నడవండి</string>
     <string name="msg_apps_not_available">ఆప్ లు అందుబాటులో లేవు. దయచేసి మీ నెట్వర్క్ లేదా ఫ్రీడంబాక్స్ URLను సరిచూసుకోండి.</string>
     <string name="msg_no_configured_freedomboxes">మీచే దాచబడిన ఫ్రీడంబాక్స్ సేవకాలు ఇక్కడ కనబడతాయి.</string>
     <string name="msg_no_discovered_freedomboxes">స్థానిక నెట్వర్కులో కనుగొనబడిన ఫ్రీడంబాక్స్ సేవకాలు ఇక్కడ కనబడతాయి.</string>
@@ -17,11 +16,7 @@
     <string name="delete">తొలగించు</string>
     <string name="setup">వ్యవస్థాపన</string>
     <string name="settings">అమరికలు</string>
-    <string name="recently_connected_to">ఇటీవల కనెక్ట్ చేయబడినవి</string>
-    <string name="freedom_boxes">ఫ్రీడంబాక్సులు</string>
     <string name="application_icon">అనువర్తన చిహ్నం</string>
-    <string name="information">సమాచారం</string>
-    <string name="installation_status">వ్యవస్థాపన స్థితి</string>
     <string name="launch">ప్రారంభించు</string>
 
     <string name="switch_freedombox">ఫ్రీడమ్‌బాక్స్ మార్చు</string>

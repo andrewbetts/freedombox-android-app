@@ -18,7 +18,7 @@
 package org.freedombox.freedombox.views.activities
 
 import android.os.Bundle
-import android.support.design.widget.FloatingActionButton
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import org.freedombox.freedombox.R
 import org.freedombox.freedombox.views.fragments.DiscoveryFragment
 

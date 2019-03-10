@@ -20,7 +20,7 @@ package org.freedombox.freedombox.utils
 import android.content.Context
 import android.graphics.drawable.PictureDrawable
 import android.net.Uri
-import android.support.v7.widget.AppCompatImageView
+import androidx.appcompat.widget.AppCompatImageView
 import android.widget.ImageView
 import com.bumptech.glide.GenericRequestBuilder
 import com.bumptech.glide.Glide

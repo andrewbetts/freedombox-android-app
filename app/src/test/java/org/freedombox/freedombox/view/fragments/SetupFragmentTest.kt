@@ -19,66 +19,52 @@ package org.freedombox.freedombox.view.fragments
 
 import android.content.Intent
 import android.preference.PreferenceManager
+import android.widget.Button
 import android.widget.EditText
 import android.widget.Switch
-import org.freedombox.freedombox.BuildConfig
+import androidx.test.core.app.ActivityScenario
 import org.freedombox.freedombox.R
 import org.freedombox.freedombox.utils.storage.getConfiguredBoxesMap
 import org.freedombox.freedombox.utils.storage.getSharedPreference
 import org.freedombox.freedombox.views.activities.DiscoveryActivity
 import org.freedombox.freedombox.views.activities.SetupActivity
-import org.freedombox.freedombox.views.model.ConfigModel
 import org.junit.Assert
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.Robolectric
 import org.robolectric.RobolectricTestRunner
 import org.robolectric.RuntimeEnvironment
-import org.robolectric.Shadows
-import org.robolectric.annotation.Config
 import org.robolectric.shadows.ShadowApplication
 import org.robolectric.shadows.ShadowLooper
 
 
 @RunWith(RobolectricTestRunner::class)
-@Config(constants = BuildConfig::class)
 class SetupFragmentTest {
 
     @Test
     fun shouldBeAbleToSeeViewsOnTheScreen() {
 
-        val activity = Robolectric.setupActivity(SetupActivity::class.java)
-        val shadowActivity = Shadows.shadowOf(activity)
-
-        val boxName = shadowActivity.findViewById(R.id.boxName)
-        Assert.assertNotNull(boxName)
-
-        val discoveredUrl = shadowActivity.findViewById(R.id.discoveredUrl)
-        Assert.assertNotNull(discoveredUrl)
-
-        val default = shadowActivity.findViewById(R.id.defaultStatus)
-        Assert.assertNotNull(default)
-
-        val saveConfig = shadowActivity.findViewById(R.id.saveConfig)
-        Assert.assertNotNull(saveConfig)
-
-        val deleteConfig = shadowActivity.findViewById(R.id.deleteConfig)
-        Assert.assertNotNull(deleteConfig)
+        val scenario = ActivityScenario.launch(SetupActivity::class.java)
+        scenario.onActivity { activity ->
+            run {
+                for (view in listOf(R.id.boxName, R.id.discoveredUrl, R.id.defaultStatus,
+                        R.id.saveConfig, R.id.deleteConfig))
+                    Assert.assertNotNull(activity.findViewById(view))
+            }
+        }
     }
 
     @Test
     fun saveButtonFinishesActivityOnButtonClick() {
-        val activity = Robolectric.setupActivity(SetupActivity::class.java)
-        val shadowActivity = Shadows.shadowOf(activity)
-        shadowActivity.findViewById(R.id.saveConfig).performClick()
-        Assert.assertTrue(shadowActivity.isFinishing)
+        val activity: SetupActivity = Robolectric.setupActivity(SetupActivity::class.java)
+        activity.findViewById<Button>(R.id.saveConfig).performClick()
+        Assert.assertTrue(activity.isFinishing)
     }
 
     @Test
     fun deleteButtonNavigatesToDiscoveryActivityOnButtonClick() {
         val activity = Robolectric.setupActivity(SetupActivity::class.java)
-        val shadowActivity = Shadows.shadowOf(activity)
-        shadowActivity.findViewById(R.id.deleteConfig).performClick()
+        activity.findViewById<Button>(R.id.deleteConfig).performClick()
         ShadowLooper.runUiThreadTasksIncludingDelayedTasks()
         val actualIntent = ShadowApplication.getInstance().nextStartedActivity
         val expectedIntent = Intent(activity, DiscoveryActivity::class.java)
@@ -96,20 +82,21 @@ class SetupFragmentTest {
         val default = false
 
         val activity = Robolectric.setupActivity(SetupActivity::class.java)
-        val shadowActivity = Shadows.shadowOf(activity)
 
-        (shadowActivity.findViewById(R.id.boxName) as EditText).setText(boxName)
-        (shadowActivity.findViewById(R.id.discoveredUrl) as EditText).setText(domain)
-        (shadowActivity.findViewById(R.id.defaultStatus) as Switch).isChecked = default
+        (activity.findViewById(R.id.boxName) as EditText).setText(boxName)
+        (activity.findViewById(R.id.discoveredUrl) as EditText).setText(domain)
+        (activity.findViewById(R.id.defaultStatus) as Switch).isChecked = default
 
-        shadowActivity.findViewById(R.id.saveConfig).performClick()
+        activity.findViewById<Button>(R.id.saveConfig).performClick()
 
-        val configBeforeDelete = getConfiguredBoxesMap(sharedPreferences.getString("saved_boxes", null))
+        val configBeforeDelete = getConfiguredBoxesMap(
+                sharedPreferences.getString("saved_boxes", null))
         Assert.assertFalse(configBeforeDelete?.isEmpty() ?: true)
 
-        shadowActivity.findViewById(R.id.deleteConfig).performClick()
+        activity.findViewById<Button>(R.id.deleteConfig).performClick()
 
-        val configAfterDelete = getConfiguredBoxesMap(sharedPreferences.getString("saved_boxes", null))
+        val configAfterDelete = getConfiguredBoxesMap(
+                sharedPreferences.getString("saved_boxes", null))
         Assert.assertTrue(configAfterDelete?.isEmpty() ?: true)
     }
 
@@ -127,13 +114,12 @@ class SetupFragmentTest {
         """.trim()
 
         val activity = Robolectric.setupActivity(SetupActivity::class.java)
-        val shadowActivity = Shadows.shadowOf(activity)
 
-        (shadowActivity.findViewById(R.id.boxName) as EditText).setText(boxName)
-        (shadowActivity.findViewById(R.id.discoveredUrl) as EditText).setText(domain)
-        (shadowActivity.findViewById(R.id.defaultStatus) as Switch).isChecked = default
+        (activity.findViewById(R.id.boxName) as EditText).setText(boxName)
+        (activity.findViewById(R.id.discoveredUrl) as EditText).setText(domain)
+        (activity.findViewById(R.id.defaultStatus) as Switch).isChecked = default
 
-        shadowActivity.findViewById(R.id.saveConfig).performClick()
+        activity.findViewById<Button>(R.id.saveConfig).performClick()
 
         val configuredBoxesJSON = sharedPreferences.getString("saved_boxes", null)
         Assert.assertEquals(value, configuredBoxesJSON)
@@ -154,15 +140,15 @@ class SetupFragmentTest {
         sharedPreferences.edit().putString("saved_boxes", value).apply()
 
         val activity = Robolectric.setupActivity(SetupActivity::class.java)
-        val shadowActivity = Shadows.shadowOf(activity)
 
-        (shadowActivity.findViewById(R.id.boxName) as EditText).setText(boxName + '2')
-        (shadowActivity.findViewById(R.id.discoveredUrl) as EditText).setText(domain)
-        (shadowActivity.findViewById(R.id.defaultStatus) as Switch).isChecked = true
+        (activity.findViewById(R.id.boxName) as EditText).setText(boxName + '2')
+        (activity.findViewById(R.id.discoveredUrl) as EditText).setText(domain)
+        (activity.findViewById(R.id.defaultStatus) as Switch).isChecked = true
 
-        shadowActivity.findViewById(R.id.saveConfig).performClick()
+        activity.findViewById<Button>(R.id.saveConfig).performClick()
 
-        val configuredBoxes = getConfiguredBoxesMap(getSharedPreference(sharedPreferences, "saved_boxes"))
+        val configuredBoxes = getConfiguredBoxesMap(
+                getSharedPreference(sharedPreferences, "saved_boxes"))
         val filtered = configuredBoxes!!.filterValues { it.isDefault() }
         Assert.assertTrue(filtered.size == 1)
         Assert.assertEquals(boxName + '2', filtered.entries.first().key)

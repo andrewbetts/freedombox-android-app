@@ -19,7 +19,7 @@ package org.freedombox.freedombox.views.fragments
 
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.support.v4.widget.SwipeRefreshLayout
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import android.view.View
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
@@ -44,7 +44,7 @@ class LauncherFragment : BaseFragment() {
 
     @Inject lateinit var sharedPreferences: SharedPreferences
 
-    private lateinit var swipeRefreshLayout: SwipeRefreshLayout
+    private lateinit var swipeRefreshLayout: androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 
     override fun getLayoutId() = R.layout.fragment_launcher
 

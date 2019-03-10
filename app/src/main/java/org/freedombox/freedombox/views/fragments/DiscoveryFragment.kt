@@ -23,8 +23,8 @@ import android.content.SharedPreferences
 import android.net.nsd.NsdManager
 import android.net.nsd.NsdServiceInfo
 import android.os.Bundle
-import android.support.v4.widget.SwipeRefreshLayout
-import android.support.v7.widget.LinearLayoutManager
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+import androidx.recyclerview.widget.LinearLayoutManager
 import android.util.Log
 import android.view.View
 import com.google.gson.Gson
@@ -61,7 +61,7 @@ class DiscoveryFragment : BaseFragment() {
 
     private lateinit var discoveryListener: FBXDiscoveryListener
 
-    private lateinit var swipeRefreshLayout: SwipeRefreshLayout
+    private lateinit var swipeRefreshLayout: androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 
     @Inject
     lateinit var gson: Gson
@@ -113,7 +113,7 @@ class DiscoveryFragment : BaseFragment() {
                             startActivity(intent)
                         }
                     })
-            configuredListView.layoutManager = LinearLayoutManager(activity)
+            configuredListView.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(activity)
             configuredListView.adapter = configuredBoxListAdapter
         }
 
@@ -133,7 +133,7 @@ class DiscoveryFragment : BaseFragment() {
                         startActivity(intent)
                     }
                 })
-        discoveredListView.layoutManager = LinearLayoutManager(activity)
+        discoveredListView.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(activity)
         discoveredListView.adapter = discoveredBoxListAdapter
     }
 

@@ -19,18 +19,15 @@ package org.freedombox.freedombox.utils.storage
 
 import android.content.Context
 import android.content.SharedPreferences
-import org.freedombox.freedombox.BuildConfig
+import androidx.test.core.app.ApplicationProvider
 import org.freedombox.freedombox.views.model.ConfigModel
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.robolectric.RuntimeEnvironment
-import org.robolectric.annotation.Config
 
 @RunWith(RobolectricTestRunner::class)
-@Config(constants = BuildConfig::class)
 class SharedPreferenceTest {
 
     private val preferenceName = "PrefTest"
@@ -40,7 +37,7 @@ class SharedPreferenceTest {
 
     @Before
     fun setup() {
-        sharedPreference = RuntimeEnvironment.application
+        sharedPreference = ApplicationProvider.getApplicationContext<Context>()
             .getSharedPreferences(preferenceName, Context.MODE_PRIVATE)
     }
 
