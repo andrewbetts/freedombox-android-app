@@ -44,7 +44,7 @@ class LauncherFragment : BaseFragment() {
 
     @Inject lateinit var sharedPreferences: SharedPreferences
 
-    private lateinit var swipeRefreshLayout: androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    private lateinit var swipeRefreshLayout: SwipeRefreshLayout
 
     override fun getLayoutId() = R.layout.fragment_launcher
 
@@ -58,13 +58,21 @@ class LauncherFragment : BaseFragment() {
         appGrid.adapter = adapter
 
         val onSuccess = fun(response: String) {
-            val appResponse = getSharedPreference(sharedPreferences, getString(R.string.shortcuts))
-            val updatedResponse = (getShortcutsMap(appResponse) ?: mapOf()).plus(
-                    Pair(currentBox.boxName, getShortcutsFromResponse(response)))
+            val cachedShortcuts = getSharedPreference(sharedPreferences, getString(R.string.shortcuts))
+            val shortcutsFromResponse = getShortcutsFromResponse(response)
+            val updatedResponse = (getShortcutsMap(cachedShortcuts) ?: mapOf())
+                    .plus(Pair(currentBox.boxName, shortcutsFromResponse))
 
             sharedPreferences.edit().putString(getString(R.string.shortcuts), gson.toJson(updatedResponse)).apply()
-            val shortcuts = getShortcutsFromResponse(response)!!.shortcuts
-            adapter.setData(shortcuts)
+            val shortcuts = shortcutsFromResponse!!.shortcuts
+
+            // Only show shortcuts which have either a web or a mobile client
+            @Suppress("USELESS_ELVIS") // Shadowsocks has clients: null
+            val shortcutsToDisplay = shortcuts.filter {
+                (it.clients ?: listOf()).any{
+                    (it.platforms ?: listOf()).any{
+                        it.type in listOf("web", "store") } } }
+            adapter.setData(shortcutsToDisplay)
         }
 
         val onFailure = fun() {
