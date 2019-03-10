@@ -84,7 +84,6 @@ dependencies {
 
     // Test
     testImplementation "junit:junit:4.12"
-    testImplementation "org.robolectric:shadows-support-v4:3.3.2"
 
     testImplementation "org.robolectric:robolectric:${versions.robolectric}"
 
