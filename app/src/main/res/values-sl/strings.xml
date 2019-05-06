@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">FreedomBox</string>
+    <string name="about">Vizitka</string>
+    <string name="desc_splash_logo">Logotip ob zagonu</string>
+    <string name="msg_apps_not_available">Aplikacije niso na voljo. Prosimo, preverite omrežje ali preverite FreedomBox naslov URL.</string>
+    <string name="box_name">Ime FreedomBox-a</string>
+    <string name="password">Geslo</string>
+</resources>
