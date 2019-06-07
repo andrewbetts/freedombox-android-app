@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">FreedomBox</string>
+    <string name="about">Σχετικά</string>
+    <string name="desc_splash_logo">Λογότυπο εκκίνησης</string>
+    <string name="msg_apps_not_available">Οι εφαρμογές δεν είναι διαθέσιμες. Ελέγξτε το δίκτυο ή επαληθεύστε το URL του FreedomBox.</string>
+    <string name="msg_no_configured_freedomboxes">Θα εμφανιστούν εδώ οι διακομιστές του FreedomBox που αποθηκεύσατε από εσάς.</string>
+</resources>
