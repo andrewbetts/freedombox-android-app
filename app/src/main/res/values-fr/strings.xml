@@ -1,7 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">Freedombox</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Freedombox</string>
     <string name="about">A propos</string>
-    <string name="desc_splash_logo">Splash Logo</string>
+    <string name="desc_splash_logo">Logo du démarrage</string>
     <string name="msg_apps_not_available">Les applications ne sont pas disponibles. Veuillez vérifier le réseau ou vérifier l\'URL de la FreedomBox.</string>
     <string name="msg_no_configured_freedomboxes">Les serveurs FreedomBox que vous avez enregistrés apparaîtront ici.</string>
     <string name="msg_no_discovered_freedomboxes">Les serveurs FreedomBox découverts sur le réseau local apparaîtront ici.</string>
@@ -26,6 +27,5 @@
     <string name="website">Site internet</string>
     <string name="faq">FAQ</string>
     <string name="get_help">Obtenir de l\'aide</string>
-
     <string name="about_app">Cette application Android agit comme un compagnon pour votre serveur FreedomBox en vous aidant à installer, configurer et utiliser les applications Android correspondant aux services exécutés sur votre serveur FreedomBox.</string>
-    </resources>
+</resources>
