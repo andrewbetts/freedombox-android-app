@@ -53,13 +53,9 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation "androidx.appcompat:appcompat:${versions.supportLib}"
-
     implementation "com.google.android.material:material:${versions.supportLib}"
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${versions.kotlin}"
-
-    implementation "androidx.cardview:cardview:${versions.supportLib}"
 
     implementation "com.android.volley:volley:1.1.0"
 
