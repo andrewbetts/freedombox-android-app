@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="about_app">Deze Android applicatie fungeert als een metgezel voor FreedomBox servers die helpt bij het installeren, configureren en gebruiken van de Android-applicaties die overeenkomen met de diensten die worden uitgevoerd op uw FreedomBox server.</string>
+    <string name="configured">Geconfigureerd</string>
+    <string name="save">Opslaan</string>
+    <string name="password">Wachtwoord</string>
+    <string name="msg_apps_not_available">Applicaties zijn niet beschikbaar. Controleer het netwerk en de FreedomBox url.</string>
+    <string name="website">Website</string>
+    <string name="msg_no_configured_freedomboxes">FreedomBox-servers die door u zijn opgeslagen worden hier weergegeven.</string>
+    <string name="msg_no_discovered_freedomboxes">FreedomBox-servers die in het lokale netwerk zijn ontdekt worden hier weergegeven.</string>
+    <string name="username">Gebruikersnaam</string>
+    <string name="setup">Instellen</string>
+    <string name="discovered_url">Gedetecteerde URL</string>
+    <string name="delete">Verwijder</string>
+    <string name="faq">Veelgestelde vragen</string>
+    <string name="news_and_updates">Nieuws &amp; updates</string>
+    <string name="get_help">Hulp krijgen</string>
+    <string name="about">Over</string>
+    <string name="application_icon">Toepassingspictogram</string>
+    <string name="desc_splash_logo">Splash logo</string>
+    <string name="launch">Starten</string>
+    <string name="box_name">FreedomBox naam</string>
+    <string name="about_freedombox">FreedomBox is een persoonlijke server met een vrij software-besturingssysteem, met gratis applicaties die zijn ontworpen om persoonlijke privacy te creëren en te behouden.</string>
+    <string name="switch_title">Als standaard instellen</string>
+    <string name="settings">Instellingen</string>
+    <string name="discovered">Gedetecteerd</string>
+    <string name="external_links">Externe links</string>
+    <string name="app_name">FreedomBox</string>
+    <string name="switch_freedombox">FreedomBox wisselen</string>
+    <string name="servers">FreedomBox servers</string>
+</resources>
