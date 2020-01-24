@@ -5,4 +5,27 @@
     <string name="desc_splash_logo">Λογότυπο εκκίνησης</string>
     <string name="msg_apps_not_available">Οι εφαρμογές δεν είναι διαθέσιμες. Ελέγξτε το δίκτυο ή επαληθεύστε το URL του FreedomBox.</string>
     <string name="msg_no_configured_freedomboxes">Θα εμφανιστούν εδώ οι διακομιστές του FreedomBox που αποθηκεύσατε από εσάς.</string>
+    <string name="msg_no_discovered_freedomboxes">Οι διακομιστές FreedomBox που εντοπίστηκαν στο τοπικό δίκτυο θα εμφανιστούν εδώ.</string>
+    <string name="discovered">Ανακαλύφθηκε</string>
+    <string name="configured">Ρυθμίστηκε</string>
+    <string name="servers">Διακομιστές Freedombox</string>
+    <string name="box_name">Όνομα του FreedomBox</string>
+    <string name="username">Όνομα χρήστη</string>
+    <string name="password">Κωδικό πρόσβασης</string>
+    <string name="discovered_url">Ανακαλυφθείσα διεύθυνση URL</string>
+    <string name="switch_title">Ορισμός ως προεπιλογή</string>
+    <string name="save">ΑΠΟΘΗΚΕΥΣΕΤΕ</string>
+    <string name="delete">Διαγράψετε</string>
+    <string name="setup">Εγκατάσταση</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="application_icon">Εικονίδιο εφαρμογής</string>
+    <string name="launch">Έναρξη</string>
+    <string name="switch_freedombox">Εναλλαγή FreedomBox</string>
+    <string name="external_links">Εξωτερικοί σύνδεσμοι</string>
+    <string name="about_freedombox">Το FreedomBox είναι ένας προσωπικός διακομιστής που τρέχει ένα ελεύθερο λειτουργικό σύστημα, με δωρεάν εφαρμογές που έχουν σχεδιαστεί για να δημιουργήσουν και να διατηρήσουν την ιδιοτηκότητά σας.</string>
+    <string name="about_app">Αυτή η εφαρμογή Android δρα ως σύντροφος στο διακομιστή FreedomBox σας βοηθώντας σας με την εγκατάσταση, τη ρύθμιση και τη χρήση των εφαρμογών Android που αντιστοιχούν στις υπηρεσίες που εκτελούνται στο διακομιστή FreedomBox σας.</string>
+    <string name="news_and_updates">Νέα και ενημερώσεις</string>
+    <string name="website">Ιστοσελίδα</string>
+    <string name="faq">Συχνές ερωτήσεις</string>
+    <string name="get_help">Βοήθεια</string>
 </resources>
