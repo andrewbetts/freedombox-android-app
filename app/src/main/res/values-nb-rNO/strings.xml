@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">FreedomBox</string>
+    <string name="about">Om</string>
+    <string name="desc_splash_logo">Oppstartlogo</string>
+    <string name="msg_apps_not_available">Apper er ike tilgjengelige. Sjekk nettverket og kontroller FreedomBox-nettadressen.</string>
+    <string name="msg_no_configured_freedomboxes">FreedomBox-tjenere du har lagret vil dukke opp her.</string>
+    <string name="msg_no_discovered_freedomboxes">FreedomBox-tjenere oppdaget på det lokale nettverket vil dukke opp her.</string>
+    <string name="discovered">Oppdaget</string>
+    <string name="configured">Satt opp</string>
+    <string name="servers">FreedomBox-tjenere</string>
+    <string name="box_name">Freedombox-navn</string>
+    <string name="username">Brukernavn</string>
+    <string name="password">Passord</string>
+    <string name="discovered_url">Oppdaget URL</string>
+    <string name="switch_title">Marker som forvalgt</string>
+    <string name="save">LAGRE</string>
+    <string name="delete">Fjern</string>
+    <string name="setup">Oppsett</string>
+    <string name="settings">Innstillinger</string>
+    <string name="application_icon">Programikon</string>
+    <string name="launch">Start</string>
+    <string name="switch_freedombox">Bytt FreedomBox</string>
+    <string name="external_links">Eksterne lenker</string>
+    <string name="about_freedombox">FreedomBox er en personlig tjener som kjører et fri programvareoperativsystem, med frie programmer utformet for å skape og bevare personlig vern av privatsfæren.</string>
+    <string name="about_app">Dette Android-programmet fungerer sammen med din FreedomBox-tjener og hjelper deg å installere, sette opp og bruke Android-programmene som hører sammen med tjenestene som kjører på din FreedomBox-tjener.</string>
+    <string name="news_and_updates">Nyheter og oppdateringer</string>
+    <string name="website">Nettsted</string>
+    <string name="faq">Ofte stilte spørsmål</string>
+    <string name="get_help">Få hjelp</string>
+</resources>
