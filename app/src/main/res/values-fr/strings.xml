@@ -2,15 +2,15 @@
 <resources>
     <string name="app_name">Freedombox</string>
     <string name="about">À propos</string>
-    <string name="desc_splash_logo">Logo du démarrage</string>
-    <string name="msg_apps_not_available">Les applications ne sont pas disponibles. Veuillez vérifier le réseau ou vérifier l\'URL de la FreedomBox.</string>
+    <string name="desc_splash_logo">Logo de démarrage</string>
+    <string name="msg_apps_not_available">Les applications ne sont pas disponibles. Veuillez vérifier votre connexion réseau et l’URL configurée pour la FreedomBox.</string>
     <string name="msg_no_configured_freedomboxes">Les serveurs FreedomBox que vous avez enregistrés apparaîtront ici.</string>
     <string name="msg_no_discovered_freedomboxes">Les serveurs FreedomBox découverts sur le réseau local apparaîtront ici.</string>
-    <string name="discovered">Découvert</string>
-    <string name="configured">Configuré</string>
+    <string name="discovered">Découverts</string>
+    <string name="configured">Configurés</string>
     <string name="servers">Serveurs FreedomBox</string>
-    <string name="box_name">Nom FreedomBox</string>
-    <string name="username">Nom d\'utilisateur</string>
+    <string name="box_name">Nom de la FreedomBox</string>
+    <string name="username">Nom d’utilisateur</string>
     <string name="password">Mot de passe</string>
     <string name="discovered_url">URL découverte</string>
     <string name="switch_title">Définir par défaut</string>
@@ -18,14 +18,14 @@
     <string name="delete">Effacer</string>
     <string name="setup">Installer</string>
     <string name="settings">Réglages</string>
-    <string name="application_icon">Icône d\'application</string>
+    <string name="application_icon">Icône d’application</string>
     <string name="launch">Démarrer</string>
     <string name="switch_freedombox">Changer de FreedomBox</string>
     <string name="external_links">Liens externes</string>
-    <string name="about_freedombox">FreedomBox est un serveur personnel exécutant un système d\'exploitation libre, avec des applications elles aussi libre conçues pour créer et préserver la confidentialité.</string>
-    <string name="news_and_updates">Nouvelles &amp; mise à jour</string>
+    <string name="about_freedombox">FreedomBox est un serveur personnel basé sur un système d\'exploitation libre et des applications libres elles aussi, conçu pour créer et préserver un espace numérique respectueux de votre vie privée.</string>
+    <string name="news_and_updates">Actualités &amp; mises à jour</string>
     <string name="website">Site web</string>
     <string name="faq">FAQ</string>
-    <string name="get_help">Obtenir de l\'aide</string>
-    <string name="about_app">Cette application Android agit comme un compagnon pour votre serveur FreedomBox en vous aidant à installer, configurer et utiliser les applications Android correspondant aux services exécutés sur votre serveur FreedomBox.</string>
+    <string name="get_help">Obtenir de l’aide</string>
+    <string name="about_app">Cette application Android sert de compagnon à votre serveur FreedomBox en vous aidant à installer, configurer et utiliser les applications Android adaptées aux services installés sur votre serveur FreedomBox.</string>
 </resources>
