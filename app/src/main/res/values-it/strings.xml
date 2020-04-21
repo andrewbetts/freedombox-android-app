@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">FreedomBox</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FreedomBox</string>
     <string name="desc_splash_logo">Logo</string>
     <string name="msg_apps_not_available">Le App non sono disponibili. Verificare l\'URL della FreedomBox e che la rete funzioni.</string>
     <string name="msg_no_configured_freedomboxes">Le FreedomBox che hai salvato appariranno qui.</string>
@@ -8,7 +9,7 @@
     <string name="configured">Configurate</string>
     <string name="servers">FreedomBox</string>
     <string name="box_name">Nome</string>
-    <string name="username">Nome utente (Username)</string>
+    <string name="username">Nome utente</string>
     <string name="password">Password</string>
     <string name="discovered_url">URL trovato</string>
     <string name="switch_title">Imposta come default</string>
@@ -26,5 +27,5 @@
     <string name="website">Sito</string>
     <string name="faq">FAQ</string>
     <string name="get_help">Aiuto</string>
-
-    </resources>
+    <string name="about">Infomarzioni</string>
+</resources>
