@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">FreedomBox</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FreedomBox</string>
     <string name="desc_splash_logo">Opstartslogo</string>
     <string name="msg_apps_not_available">Applikationerne er ikke tilgængelige. Tjek netværket eller kontroller FreedomBox-url.</string>
     <string name="msg_no_configured_freedomboxes">FreedomBox-servere som du har gemt vil vises her.</string>
@@ -12,11 +13,19 @@
     <string name="password">Kodeord</string>
     <string name="discovered_url">Fundet URL</string>
     <string name="switch_title">Marker som standard</string>
-    <string name="save">Gem</string>
+    <string name="save">GEM</string>
     <string name="delete">Slet</string>
     <string name="setup">Indstil</string>
     <string name="settings">Indstillinger</string>
     <string name="application_icon">Applikationsikon</string>
     <string name="launch">Start</string>
-
-    </resources>
+    <string name="get_help">Få hjælp</string>
+    <string name="faq">Ofte stillede spørgsmål</string>
+    <string name="website">Websted</string>
+    <string name="news_and_updates">Nyheder &amp; opdateringer</string>
+    <string name="about_app">Denne Android-applikation fungerer som en ledsager til din FreedomBox-server, og hjælper dig med at installere, konfigurere og bruge de Android-applikationer der er beregnet til tjenesterne der kører på din FreedomBox-server.</string>
+    <string name="about_freedombox">FreedomBox er en personlig server som kører et styresystem bestående af fri software, med frie applikationer designet til at skabe og beskytte privatlivet.</string>
+    <string name="external_links">Eksterne links</string>
+    <string name="switch_freedombox">Skift FreedomBox</string>
+    <string name="about">Om</string>
+</resources>
