@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="discovered">Keşfedilmiş</string>
+    <string name="get_help">Yardım Alın</string>
+    <string name="faq">SSS</string>
+    <string name="website">Web Sitesi</string>
+    <string name="news_and_updates">Haberler ve Güncellemeler</string>
+    <string name="about_app">Bu Android uygulaması, FreedomBox sunucunuzda çalışan hizmetlere karşılık gelen Android uygulamalarını yüklemenize, yapılandırmanıza ve kullanmanıza yardımcı olan FreedomBox sunucunuza eşlik eder.</string>
+    <string name="about_freedombox">FreedomBox, kişisel gizliliği oluşturmak ve korumak için tasarlanmış ücretsiz uygulamalara sahip ücretsiz bir yazılım işletim sistemi çalıştıran kişisel bir sunucudur.</string>
+    <string name="external_links">Harici Bağlantılar</string>
+    <string name="switch_freedombox">FreedomBox\'ı Değiştir</string>
+    <string name="launch">Başlat</string>
+    <string name="application_icon">Uygulama Simgesi</string>
+    <string name="settings">Ayarlar</string>
+    <string name="setup">Ayarla</string>
+    <string name="delete">Sil</string>
+    <string name="save">KAYDET</string>
+    <string name="switch_title">Varsayılan olarak ayarla</string>
+    <string name="discovered_url">Keşfedilen URL</string>
+    <string name="password">Parola</string>
+    <string name="username">Kullanıcı adı</string>
+    <string name="box_name">FreedomBox Adı</string>
+    <string name="servers">FreedomBox Sunucuları</string>
+    <string name="configured">Yapılandırılmış</string>
+    <string name="msg_no_discovered_freedomboxes">Yerel ağda keşfedilen FreedomBox sunucuları burada görünecek.</string>
+    <string name="msg_no_configured_freedomboxes">Sizin tarafınızdan kaydedilen FreedomBox sunucuları burada görünecek.</string>
+    <string name="msg_apps_not_available">Uygulamalar mevcut değil. Lütfen ağı denetleyin veya FreedomBox URL\'sini doğrulayın.</string>
+    <string name="desc_splash_logo">Karşılama Logosu</string>
+    <string name="about">Hakkında</string>
+    <string name="app_name">FreedomBox</string>
+</resources>
