@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="get_help">Axuda</string>
+    <string name="faq">PMF</string>
+    <string name="website">Sitio web</string>
+    <string name="news_and_updates">Novas e Actualizacións</string>
+    <string name="about_app">Esta app Android acompaña ó teu servidor FreedomBox axudándoche coa instalación, configuración e utilización das aplicacións Android correspondentes ós servizos que se executan no teu servidor FreedomBox.</string>
+    <string name="about_freedombox">FreedomBox é un servidor personal cun sistema operativo libre, con aplicacións libres deseñadas para crear e protexer a privacidade personal.</string>
+    <string name="external_links">Ligazóns externas</string>
+    <string name="switch_freedombox">Cambiar FreedomBox</string>
+    <string name="launch">Iniciar</string>
+    <string name="application_icon">Icona da app</string>
+    <string name="settings">Axustes</string>
+    <string name="setup">Configurar</string>
+    <string name="delete">Eliminar</string>
+    <string name="save">GARDAR</string>
+    <string name="switch_title">Establecer por omisión</string>
+    <string name="discovered_url">URL descuberto</string>
+    <string name="password">Contrasinal</string>
+    <string name="username">Nome de usuaria</string>
+    <string name="box_name">Nome FreedomBox</string>
+    <string name="servers">Servidores FreedomBox</string>
+    <string name="configured">Configurados</string>
+    <string name="discovered">Descubertos</string>
+    <string name="msg_no_discovered_freedomboxes">Os servidores de FreedomBox na rede local aparecerán aquí.</string>
+    <string name="msg_no_configured_freedomboxes">Aquí aparecerán os servidores de FreedomBox que ti gardaches.</string>
+    <string name="msg_apps_not_available">Non hai apps dispoñibles. Comproba a conexión á rede e verifica o url de FreedomBox.</string>
+    <string name="desc_splash_logo">Logotipo</string>
+    <string name="about">Acerca de</string>
+    <string name="app_name">FreedomBox</string>
+</resources>
