@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="get_help">Получить помощь</string>
+    <string name="faq">FAQ</string>
+    <string name="website">Веб-сайт</string>
+    <string name="news_and_updates">Новости и обновления</string>
+    <string name="about_app">Это приложение Android действует как компаньон для вашего сервера FreedomBox, помогая вам устанавливать, настраивать и использовать приложения Android, соответствующие службам, работающим на вашем сервере FreedomBox.</string>
+    <string name="about_freedombox">FreedomBox - это персональный сервер, на котором работает бесплатная операционная система с бесплатными приложениями, предназначенными для создания и сохранения конфиденциальности.</string>
+    <string name="external_links">Внешние ссылки</string>
+    <string name="switch_freedombox">Переключить FreedomBox</string>
+    <string name="launch">Запуск</string>
+    <string name="application_icon">Иконка приложения</string>
+    <string name="settings">Настройки</string>
+    <string name="setup">Установить</string>
+    <string name="delete">Удалить</string>
+    <string name="save">СОХРАНИТЬ</string>
+    <string name="switch_title">Установить по умолчанию</string>
+    <string name="discovered_url">Обнаруженный URL</string>
+    <string name="password">Пароль</string>
+    <string name="username">Имя пользователя</string>
+    <string name="box_name">Имя FreedomBox</string>
+    <string name="servers">Серверы FreedomBox</string>
+    <string name="configured">Настроенные</string>
+    <string name="discovered">Обнаруженные</string>
+    <string name="msg_no_discovered_freedomboxes">Здесь появятся серверы FreedomBox, обнаруженные в локальной сети.</string>
+    <string name="msg_no_configured_freedomboxes">Здесь появятся сохраненные вами серверы FreedomBox.</string>
+    <string name="msg_apps_not_available">Приложения недоступны. Проверьте сеть или проверьте URL-адрес FreedomBox.</string>
+    <string name="desc_splash_logo">Логотип заставки</string>
+    <string name="about">О приложении</string>
+    <string name="app_name">FreedomBox</string>
+</resources>
