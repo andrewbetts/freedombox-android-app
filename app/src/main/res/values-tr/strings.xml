@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="discovered">Keşfedilmiş</string>
+    <string name="discovered">Keşfedildi</string>
     <string name="get_help">Yardım Alın</string>
     <string name="faq">SSS</string>
     <string name="website">Web Sitesi</string>
@@ -12,7 +12,7 @@
     <string name="launch">Başlat</string>
     <string name="application_icon">Uygulama Simgesi</string>
     <string name="settings">Ayarlar</string>
-    <string name="setup">Ayarla</string>
+    <string name="setup">Ayarlama</string>
     <string name="delete">Sil</string>
     <string name="save">KAYDET</string>
     <string name="switch_title">Varsayılan olarak ayarla</string>
@@ -21,7 +21,7 @@
     <string name="username">Kullanıcı adı</string>
     <string name="box_name">FreedomBox Adı</string>
     <string name="servers">FreedomBox Sunucuları</string>
-    <string name="configured">Yapılandırılmış</string>
+    <string name="configured">Yapılandırıldı</string>
     <string name="msg_no_discovered_freedomboxes">Yerel ağda keşfedilen FreedomBox sunucuları burada görünecek.</string>
     <string name="msg_no_configured_freedomboxes">Sizin tarafınızdan kaydedilen FreedomBox sunucuları burada görünecek.</string>
     <string name="msg_apps_not_available">Uygulamalar mevcut değil. Lütfen ağı denetleyin veya FreedomBox URL\'sini doğrulayın.</string>
