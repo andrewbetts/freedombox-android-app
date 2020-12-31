@@ -23,7 +23,7 @@
     <string name="switch_freedombox">FreedomBox wechseln</string>
     <string name="external_links">Externe Links</string>
     <string name="about_freedombox">FreedomBox ist ein persönlicher Server mit freiem Betriebssystem und freien Anwendungen, die entworfen wurden, um Ihre persönliche Privatsphäre zu wahren.</string>
-    <string name="about_app">Diese Android-Anwendung dient als Partner für Ihren FreedomBox-Server und hilft Ihnen beim Installieren, Konfigurieren und Nutzen der Android-Anwendungen, die zu den Diensten gehören, die auf Ihrem Freedombox-Server laufen.</string>
+    <string name="about_app">Diese Android-Anwendung dient als Ergänzung für Ihren FreedomBox-Server und hilft Ihnen beim Installieren, Konfigurieren und Nutzen der Android-Anwendungen, die zu den Diensten gehören, die auf Ihrem Freedombox-Server laufen.</string>
     <string name="news_and_updates">Neuigkeiten und Updates</string>
     <string name="website">Webseite</string>
     <string name="faq">Oft gestellte Fragen</string>
