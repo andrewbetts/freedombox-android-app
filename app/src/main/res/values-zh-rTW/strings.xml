@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="faq">常見問答</string>
+    <string name="website">網站</string>
+    <string name="news_and_updates">新聞 &amp; 更新</string>
+    <string name="external_links">外部鍵結</string>
+    <string name="switch_freedombox">切換 FreedomBox</string>
+    <string name="launch">啟動</string>
+    <string name="application_icon">應用程式圖標</string>
+    <string name="settings">設定</string>
+    <string name="setup">設定</string>
+    <string name="delete">刪除</string>
+    <string name="save">儲存</string>
+    <string name="switch_title">設為預設</string>
+    <string name="discovered_url">探索 URL</string>
+    <string name="password">密碼</string>
+    <string name="username">使用者名稱</string>
+    <string name="box_name">FreedomBox 名稱</string>
+    <string name="servers">FreedomBox 伺服器</string>
+    <string name="discovered">探索</string>
+    <string name="msg_no_discovered_freedomboxes">本地網絡發現的 FreedomBox 伺服器將會顯示在此。</string>
+    <string name="msg_no_configured_freedomboxes">您儲存的 FreedomBox 伺服器將會顯示在此。</string>
+    <string name="about">關於</string>
+</resources>
