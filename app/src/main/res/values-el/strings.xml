@@ -25,7 +25,7 @@
     <string name="about_freedombox">Το FreedomBox είναι ένας προσωπικός διακομιστής που τρέχει ένα ελεύθερο λειτουργικό σύστημα, με δωρεάν εφαρμογές που έχουν σχεδιαστεί για να δημιουργήσουν και να διατηρήσουν την ιδιοτηκότητά σας.</string>
     <string name="about_app">Αυτή η εφαρμογή Android δρα ως σύντροφος στο διακομιστή FreedomBox σας βοηθώντας σας με την εγκατάσταση, τη ρύθμιση και τη χρήση των εφαρμογών Android που αντιστοιχούν στις υπηρεσίες που εκτελούνται στο διακομιστή FreedomBox σας.</string>
     <string name="news_and_updates">Νέα και ενημερώσεις</string>
-    <string name="website">Ιστοσελίδα</string>
+    <string name="website">Ιστότοπος</string>
     <string name="faq">Συχνές ερωτήσεις</string>
     <string name="get_help">Βοήθεια</string>
 </resources>
