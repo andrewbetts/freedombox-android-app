@@ -11,7 +11,7 @@
     <string name="servers">Διακομιστές Freedombox</string>
     <string name="box_name">Όνομα του FreedomBox</string>
     <string name="username">Όνομα χρήστη</string>
-    <string name="password">Κωδικό πρόσβασης</string>
+    <string name="password">Κωδικός πρόσβασης</string>
     <string name="discovered_url">Ανακαλυφθείσα διεύθυνση URL</string>
     <string name="switch_title">Ορισμός ως προεπιλογή</string>
     <string name="save">ΑΠΟΘΗΚΕΥΣΕΤΕ</string>
