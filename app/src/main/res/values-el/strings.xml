@@ -14,9 +14,9 @@
     <string name="password">Κωδικός πρόσβασης</string>
     <string name="discovered_url">Ανακαλυφθείσα διεύθυνση URL</string>
     <string name="switch_title">Ορισμός ως προεπιλογή</string>
-    <string name="save">ΑΠΟΘΗΚΕΥΣΕΤΕ</string>
-    <string name="delete">Διαγράψετε</string>
-    <string name="setup">Εγκατάσταση</string>
+    <string name="save">ΑΠΟΘΗΚΕΥΣΗ</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="setup">Ρύθμιση</string>
     <string name="settings">Ρυθμίσεις</string>
     <string name="application_icon">Εικονίδιο εφαρμογής</string>
     <string name="launch">Έναρξη</string>
