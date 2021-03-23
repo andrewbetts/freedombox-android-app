@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="desc_splash_logo">Logo Splash</string>
+    <string name="about">Tentang</string>
+    <string name="app_name">FreedomBox</string>
+</resources>
