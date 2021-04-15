@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">FreedomBox</string>
+    <string name="get_help">Merrni Ndihmë</string>
+    <string name="faq">PBR</string>
+    <string name="website">Sajt</string>
+    <string name="news_and_updates">Lajme &amp; Përditësime</string>
+    <string name="about_app">Ky aplikacion Android vepron si shoqërues i shërbyesit tuaj FreedomBox për t’ju ndihmuar me instalim, formësim dhe përdorim aplikacionesh Android që u korrespondojnë shërbimeve të xhiruara në shërbyesin tuaj FreedomBox.</string>
+    <string name="about_freedombox">FreedomBox është një shërbyes personal që xhiron mbi një sistem operativ software i lirë, me aplikacione të lira të menduara për të krijuar dhe ruajtur privatësinë personale.</string>
+    <string name="external_links">Lidhje të Jashtme</string>
+    <string name="switch_freedombox">Ndërroni FreedomBox</string>
+    <string name="launch">Nise</string>
+    <string name="application_icon">Ikonë Aplikacioni</string>
+    <string name="settings">Rregullime</string>
+    <string name="setup">Ujdisje</string>
+    <string name="delete">Fshije</string>
+    <string name="save">RUAJE</string>
+    <string name="switch_title">Vëre si parazgjedhje</string>
+    <string name="discovered_url">URL e pikasur</string>
+    <string name="password">Fjalëkalim</string>
+    <string name="username">Emër përdoruesi</string>
+    <string name="box_name">Emër FreedomBox-i</string>
+    <string name="servers">Shërbyes FreedomBox</string>
+    <string name="configured">Të formësuar</string>
+    <string name="discovered">Të pikasur</string>
+    <string name="msg_no_discovered_freedomboxes">Këtu do të shfaqen shërbyes FreedomBox të pikasur në rrjetin vendor.</string>
+    <string name="msg_no_configured_freedomboxes">Këtu do të shfaqen Shërbyes FreedomBox të ruajtur prej jush.</string>
+    <string name="msg_apps_not_available">Aplikacionet s’janë të passhme. Ju lutemi, kontrolloni rrjetin, ose verifikoni URL-në e FreedomBox-it.</string>
+    <string name="desc_splash_logo">Stemë Fillimi</string>
+    <string name="about">Mbi</string>
+</resources>
