@@ -42,15 +42,16 @@ class GridAdapter(val context: Context, val imageRenderer: ImageRenderer, val ba
 
         rowView.appName.text = shortcut.name
         rowView.appDescription.text = shortcut.shortDescription
-        val iconUrl = urlJoin(baseUrl, shortcut.iconUrl)
 
-        imageRenderer.loadImageFromURL(
+        // TODO Remove the `replace` after changes are done on the server
+        val iconUrl = urlJoin(baseUrl, shortcut.iconUrl.replace(".png", ".svg"))
+
+        imageRenderer.loadSvgImageFromURL(
                 Uri.parse(iconUrl),
                 rowView.appIcon
         )
 
-        rowView.appIcon.setOnClickListener { launchApp(shortcut, context, baseUrl)}
-
+        rowView.appIcon.setOnClickListener { launchApp(shortcut, context, baseUrl) }
         return rowView
     }
 
