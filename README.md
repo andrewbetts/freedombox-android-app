@@ -21,4 +21,4 @@ Discovery             |  Save Configuration | Select FreedomBox | Launch Apps
 
 # Localization
 
-[![Translation status](https://hosted.weblate.org/widgets/freedombox/-/android/287x66-white.png)](https://hosted.weblate.org/engage/freedombox/?utm_source=widget)
+[![Translation status](https://hosted.weblate.org/widgets/freedombox/-/android/287x66-white.png)](https://hosted.weblate.org/projects/freedombox/android/)
