@@ -1,13 +1,14 @@
-Features
+<b>Features</b>
+<ul>
+    <li>Discover FreedomBox servers on the network</li>
+    <li>Display a list of installed services on the selected FreedomBox</li>
+    <li>Launch Android apps and web applications for available services</li>
+    <li>Save a FreedomBox and connect to it from anywhere</li>
+</ul>
 
-- Discover FreedomBox servers on the network
-- Display a list of installed services on the selected FreedomBox
-- Launch Android apps and web applications for available services
-- Save a FreedomBox and connect to it from anywhere
-
-Planned Features
-
-- Save credentials for a FreedomBox and automatically login
-- Installation help guide for various devices
-- Automatically configure an application with the saved credentials of the FreedomBox
-
+<b>Planned Features</b>
+<ul>
+    <li>Save credentials for a FreedomBox and automatically login</li>
+    <li>Installation help guide for various devices</li>
+    <li>Automatically configure an application with the saved credentials of the FreedomBox</li>
+</ul>
