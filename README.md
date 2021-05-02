@@ -13,7 +13,7 @@ App to access FreedomBox services from Android devices.
 
 Discovery             |  Save Configuration | Select FreedomBox | Launch Apps
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](fastlane/metadata/android/en-US/images/phoneScreenshots/1.png)  |  ![](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png)   |  ![](fastlane/metadata/android/en-US/images/phoneScreenshots/3.png)   |  ![](fastlane/metadata/android/en-US/images/phoneScreenshots/4.png)
+![](fastlane/metadata/android/en-US/images/phoneScreenshots/2.png)  |  ![](fastlane/metadata/android/en-US/images/phoneScreenshots/3.png)   |  ![](fastlane/metadata/android/en-US/images/phoneScreenshots/4.png)   |  ![](fastlane/metadata/android/en-US/images/phoneScreenshots/5.png)
 
 # Install
 
