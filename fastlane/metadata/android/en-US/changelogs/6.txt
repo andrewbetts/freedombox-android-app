@@ -1,0 +1,3 @@
+- Translated into 10 new languages!
+- F-Droid: Add new screenshots, changelogs and a translation
+- Use both SVG (preferred) and PNG images for app icons in the launcher
