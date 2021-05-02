@@ -1,0 +1,3 @@
+- Fixes for app crashes
+- Navigation Drawer
+- About Page

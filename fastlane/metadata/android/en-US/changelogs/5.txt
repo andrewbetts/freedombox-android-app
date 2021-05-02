@@ -1,0 +1,3 @@
+- Support SDK version 28
+- Fix app crash when launching apps with no desktop or mobile clients
+- Fix issue with scrolling up in the Launcher view

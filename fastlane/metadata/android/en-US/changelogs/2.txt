@@ -1,0 +1,3 @@
+- Fixes for app crashes in older versions of Android
+- Images render better on various screen sizes
+- Upgrade API version to 27
