@@ -14,6 +14,7 @@ import org.freedombox.freedombox.models.Shortcut
 import org.freedombox.freedombox.utils.ImageRenderer
 import org.freedombox.freedombox.utils.network.launchApp
 import org.freedombox.freedombox.utils.network.urlJoin
+import java.util.Locale
 
 class GridAdapter(val context: Context, val imageRenderer: ImageRenderer, val baseUrl: String) : BaseAdapter() {
 
@@ -28,13 +29,23 @@ class GridAdapter(val context: Context, val imageRenderer: ImageRenderer, val ba
         rowView.appName.text = shortcut.name
         rowView.appDescription.text = shortcut.shortDescription
 
-        // TODO Remove the `replace` after changes are done on the server
-        val iconUrl = urlJoin(baseUrl, shortcut.iconUrl.replace(".png", ".svg"))
+        /* TODO Implement fallback to png on svg image render failure automatically
+         * This will ensure that manually installed applications will also be rendered correctly.
+         */
 
-        imageRenderer.loadSvgImageFromURL(
-                Uri.parse(iconUrl),
+        // Apps whose SVG files cannot be rendered by Android
+        val brokenSVGs = listOf("bepasty", "deluge", "mumble", "minetest", "transmission", "tiny tiny rss", "zoph")
+
+        if (shortcut.name.toLowerCase(Locale.getDefault()) in brokenSVGs)
+            imageRenderer.loadImageFromURL(
+                Uri.parse(urlJoin(baseUrl, shortcut.iconUrl)),
                 rowView.appIcon
-        )
+            )
+        else
+            imageRenderer.loadSvgImageFromURL(
+                    Uri.parse(urlJoin(baseUrl, shortcut.iconUrl.replace(".png", ".svg"))),
+                    rowView.appIcon
+            )
 
         rowView.appIcon.setOnClickListener { launchApp(shortcut, context, baseUrl) }
         return rowView
