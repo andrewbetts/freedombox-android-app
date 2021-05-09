@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="get_help">Tìm sự trợ giúp</string>
+    <string name="faq">Các câu hỏi thường gặp</string>
+    <string name="website">Trang web</string>
+    <string name="news_and_updates">Tin tức &amp; Cập nhật</string>
+    <string name="about_app">Ứng dụng Android này đóng vai trò là một ứng dụng đồng hành với máy chủ FreedomBox của bạn, nó giúp bạn cài đặt, thiết lập và sử dụng các ứng dụng Android tương ứng với các dịch vụ chạy trên máy chủ FreedomBox của bạn.</string>
+    <string name="about_freedombox">FreedomBox là một máy chủ cá nhân chạy một hệ điều hành phần mềm tự do, cùng với các ứng dụng tự do được thiết kế để tạo và giữ gìn sự riêng tư cá nhân.</string>
+    <string name="external_links">Liên kết ngoài</string>
+    <string name="switch_freedombox">Chuyển FreedomBox</string>
+    <string name="launch">Chạy</string>
+    <string name="application_icon">Biểu tượng ứng dụng</string>
+    <string name="settings">Cài đặt</string>
+    <string name="setup">Thiết lập</string>
+    <string name="delete">Xoá</string>
+    <string name="save">LƯU</string>
+    <string name="switch_title">Đặt làm mặc định</string>
+    <string name="discovered_url">URL đã phát hiện</string>
+    <string name="password">Mật khẩu</string>
+    <string name="username">Tên người dùng</string>
+    <string name="box_name">Tên FreedomBox</string>
+    <string name="servers">Các máy chủ FreedomBox</string>
+    <string name="configured">Đã thiết lập</string>
+    <string name="discovered">Đã phát hiện</string>
+    <string name="msg_no_discovered_freedomboxes">Các máy chủ FreedomBox được phát hiện trong mạng cục bộ sẽ hiện lên ở đây.</string>
+    <string name="msg_no_configured_freedomboxes">Các máy chủ FreedomBox được bạn lưu sẽ hiện lên ở đây.</string>
+    <string name="msg_apps_not_available">Các ứng dụng không có sẵn. Vui lòng kiểm tra mạng hoặc xác minh URL FreedomBox.</string>
+    <string name="desc_splash_logo">Logo khởi động</string>
+    <string name="about">Giới thiệu</string>
+    <string name="app_name">FreedomBox</string>
+</resources>
