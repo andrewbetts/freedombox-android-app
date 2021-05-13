@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="discovered">Keşfedildi</string>
+    <string name="discovered">Keşfedilen</string>
     <string name="get_help">Yardım Alın</string>
     <string name="faq">SSS</string>
     <string name="website">Web Sitesi</string>
@@ -18,10 +18,10 @@
     <string name="switch_title">Varsayılan olarak ayarla</string>
     <string name="discovered_url">Keşfedilen URL</string>
     <string name="password">Parola</string>
-    <string name="username">Kullanıcı adı</string>
+    <string name="username">Kullanıcı Adı</string>
     <string name="box_name">FreedomBox Adı</string>
     <string name="servers">FreedomBox Sunucuları</string>
-    <string name="configured">Yapılandırıldı</string>
+    <string name="configured">Yapılandırılan</string>
     <string name="msg_no_discovered_freedomboxes">Yerel ağda keşfedilen FreedomBox sunucuları burada görünecek.</string>
     <string name="msg_no_configured_freedomboxes">Sizin tarafınızdan kaydedilen FreedomBox sunucuları burada görünecek.</string>
     <string name="msg_apps_not_available">Uygulamalar mevcut değil. Lütfen ağı denetleyin veya FreedomBox URL\'sini doğrulayın.</string>
