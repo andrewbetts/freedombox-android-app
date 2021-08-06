@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="msg_apps_not_available">Apps não estão disponíveis. Por favor, verifique a rede ou verifique a url FreedomBox.</string>
+    <string name="desc_splash_logo">Logotipo splash</string>
+    <string name="about">Sobre</string>
+    <string name="app_name">FreedomBox</string>
+</resources>
