@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_app">Даний застосунок Android діє як супутник для вашого сервера FreedomBox, допомагаючи з інсталяцією, конфіґурацією та використанням застосунків Android, що відповідають сервісам, запущеним на вашому сервері FreedomBox.</string>
+    <string name="about_app">Цей застосунок Android діє як супутник до Вашого сервера FreedomBox. Він допомагає зі встановленням, налаштуванням і використанням Android-застосунків, які відповідають запущеним на Вашому сервері FreedomBox сервісам.</string>
     <string name="about_freedombox">FreedomBox – це особистий сервер, що працює як операційна система вільного програмного забезпечення, разом із безкоштовними програмами, які спроєктовані створити й зберегти особисту приватність.</string>
-    <string name="setup">Встановлення</string>
+    <string name="setup">Установлення</string>
     <string name="get_help">Отримати допомогу</string>
     <string name="faq">ЧаП</string>
     <string name="website">Вебсайт</string>
@@ -14,8 +14,8 @@
     <string name="settings">Налаштування</string>
     <string name="delete">Видалити</string>
     <string name="msg_no_discovered_freedomboxes">Виявлені в локальній мережі сервери FreedomBox зʼявляться тут.</string>
-    <string name="msg_no_configured_freedomboxes">Збережені вами сервери FreedomBox зʼявляться тут.</string>
-    <string name="msg_apps_not_available">Застосунки недоступні. Перевірте звʼязок з мережею або url-адресу FreedomBox.</string>
+    <string name="msg_no_configured_freedomboxes">Збережені Вами сервери FreedomBox зʼявляться тут.</string>
+    <string name="msg_apps_not_available">Застосунки недоступні. Перевірте звʼязок із мережею або url-адресу FreedomBox.</string>
     <string name="desc_splash_logo">Спливаючий логотип</string>
     <string name="about">Про застосунок</string>
     <string name="save">ЗБЕРЕГТИ</string>
