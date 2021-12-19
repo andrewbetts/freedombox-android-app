@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="website">网站</string>
+    <string name="switch_freedombox">切换 FreedomBox</string>
+    <string name="discovered_url">发现的 URL</string>
+    <string name="desc_splash_logo">FreedomBox 启动标识</string>
+    <string name="discovered">已发现</string>
+    <string name="username">用户名</string>
+    <string name="app_name">FreedomBox</string>
+    <string name="msg_no_configured_freedomboxes">你保存的 FreedomBox 服务器将出现在这里。</string>
+    <string name="servers">FreedomBox 服务器</string>
+    <string name="about">关于</string>
+    <string name="save">报讯</string>
+    <string name="about_freedombox">FreedomBox 是一台运行自由软件操作系统的个人服务器，带有旨在创建和保护个人隐私的自有应用程序。</string>
+    <string name="settings">摄制</string>
+    <string name="application_icon">应用程序图标</string>
+    <string name="news_and_updates">新闻与更新</string>
+    <string name="msg_no_discovered_freedomboxes">本地网络中发现的 FreedomBox 服务器将出现在这里。</string>
+    <string name="configured">已配置</string>
+    <string name="delete">删除</string>
+    <string name="setup">设置</string>
+    <string name="launch">启动</string>
+    <string name="msg_apps_not_available">应用程序不可用。 请检查网络或验证 FreedomBox 网址。</string>
+    <string name="box_name">Freedombox 名称</string>
+    <string name="password">密码</string>
+    <string name="external_links">外部链接</string>
+    <string name="switch_title">设为默认</string>
+    <string name="about_app">此 Android 应用程序作为您的 FreedomBox 服务器的伴侣，帮助您安装、配置和使用与您的 FreedomBox 服务器上运行的服务相对应的 Android 应用程序。</string>
+    <string name="faq">常见问题</string>
+    <string name="get_help">获得帮助</string>
+</resources>
