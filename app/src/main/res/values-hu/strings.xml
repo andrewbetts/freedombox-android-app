@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">FreedomBox</string>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FreedomBox</string>
     <string name="desc_splash_logo">Splash logó</string>
     <string name="msg_apps_not_available">Az alkalmazások nem elérhetőek. Kérjük ellenőrizze a hálózatot és a FreedomBox elérési címét.</string>
     <string name="msg_no_configured_freedomboxes">Itt fognak megjelenni azok a FreedomBox szerverek, amelyeket már beállított.</string>
@@ -8,25 +9,23 @@
     <string name="configured">Beállított</string>
     <string name="servers">FreedomBox szerverek</string>
     <string name="box_name">FreedomBox neve</string>
-    <string name="username">Felhasználói név</string>
+    <string name="username">Felhasználónév</string>
     <string name="password">Jelszó</string>
     <string name="discovered_url">Felismert URL</string>
     <string name="switch_title">Beállítás alapértelmezettként</string>
     <string name="save">MENTÉS</string>
     <string name="delete">Törlés</string>
-    <string name="setup">Beállítások</string>
+    <string name="setup">Telepítés</string>
     <string name="settings">Beállítások</string>
     <string name="application_icon">Alkalmazásikon</string>
     <string name="launch">Indítás</string>
-
     <string name="about">Névjegy</string>
     <string name="switch_freedombox">FreedomBox váltása</string>
     <string name="external_links">Külső hivatkozások</string>
-    <string name="about_freedombox">A FreedomBox egy szabad operációs rendszert futtató, szabad alkalmazásokból álló személyi szerver, melyet a magánszféra megőrzésének érdekében fejlesztettek.</string>
+    <string name="about_freedombox">A FreedomBox egy szabad operációs rendszert futtató, szabad alkalmazásokból álló személyi szerver, amelyet a magánszféra megteremtésének és megőrzésének céljából fejlesztettek ki.</string>
     <string name="about_app">Ez az Android társalkalmazás egy olyan kiegészítő a FreedomBox szerveredhez, amely segítséget nyújt a szerveren futó szolgáltatásoknak megfelelő Android alkalmazások telepítéséhez és beállításához.</string>
-    <string name="news_and_updates">Hírek &amp; frissítések</string>
+    <string name="news_and_updates">Hírek és frissítések</string>
     <string name="website">Weboldal</string>
     <string name="faq">GYIK</string>
     <string name="get_help">További segítség</string>
-
-    </resources>
+</resources>
