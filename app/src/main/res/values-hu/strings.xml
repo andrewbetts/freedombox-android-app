@@ -2,8 +2,8 @@
 <resources>
     <string name="app_name">FreedomBox</string>
     <string name="desc_splash_logo">Splash logó</string>
-    <string name="msg_apps_not_available">Az alkalmazások nem elérhetőek. Kérjük ellenőrizze a hálózatot és a FreedomBox elérési címét.</string>
-    <string name="msg_no_configured_freedomboxes">Itt fognak megjelenni azok a FreedomBox szerverek, amelyeket már beállított.</string>
+    <string name="msg_apps_not_available">Az alkalmazások nem érhetők el. Kérlek, ellenőrizd a hálózatot és a FreedomBox elérési címét.</string>
+    <string name="msg_no_configured_freedomboxes">Itt fognak megjelenni azok a FreedomBox szerverek, amelyeket már beállítottál.</string>
     <string name="msg_no_discovered_freedomboxes">Itt fognak megjelenni a helyi hálózaton talált FreedomBox szerverek.</string>
     <string name="discovered">Felismert</string>
     <string name="configured">Beállított</string>
