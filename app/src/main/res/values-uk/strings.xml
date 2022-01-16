@@ -16,7 +16,7 @@
     <string name="msg_no_discovered_freedomboxes">Виявлені в локальній мережі сервери FreedomBox зʼявляться тут.</string>
     <string name="msg_no_configured_freedomboxes">Збережені Вами сервери FreedomBox зʼявляться тут.</string>
     <string name="msg_apps_not_available">Застосунки недоступні. Перевірте звʼязок із мережею або url-адресу FreedomBox.</string>
-    <string name="desc_splash_logo">Спливаючий логотип</string>
+    <string name="desc_splash_logo">Випливний логотип</string>
     <string name="about">Про застосунок</string>
     <string name="save">ЗБЕРЕГТИ</string>
     <string name="switch_title">Зробити типовим</string>
