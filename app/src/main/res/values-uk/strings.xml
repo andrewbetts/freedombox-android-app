@@ -11,7 +11,7 @@
     <string name="switch_freedombox">Перемикання FreedomBox</string>
     <string name="launch">Запустити</string>
     <string name="application_icon">Значок застосунку</string>
-    <string name="settings">Налаштування</string>
+    <string name="settings">Параметри</string>
     <string name="delete">Видалити</string>
     <string name="msg_no_discovered_freedomboxes">Виявлені в локальній мережі сервери FreedomBox зʼявляться тут.</string>
     <string name="msg_no_configured_freedomboxes">Збережені Вами сервери FreedomBox зʼявляться тут.</string>
