@@ -93,7 +93,15 @@ fun getApps(context: Context, uri: String,
 
 
 fun urlJoin(vararg urls: String): String {
-    return urls.map { it.trim('/') }.joinToString(separator = "/")
+    var ret_orig = urls.map { it.trim('/') }.joinToString(separator = "/")
+    // Preserve trailing '/' in last item
+    var last_string = urls.last()
+    if (last_string.length > 1){
+	    if (last_string.last() == '/') {
+			return ret_orig + '/'
+	    }
+    }
+    return ret_orig
 }
 
 
